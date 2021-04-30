@@ -14,13 +14,6 @@ ingredients:
 tags:
   - sides
 ---
-## Ingredients
-<ul>
-  {%- for ingredient in ingredients -%}
-  <li>{{ ingredient }}</li>
-  {%- endfor -%}
-</ul>
-
 {% image {
   webpSrc: "/img/pickled-red-onion-1.webp",
   jpgSrc: "/img/pickled-red-onion-1.jpeg",

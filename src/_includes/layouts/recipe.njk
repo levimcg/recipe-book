@@ -11,6 +11,15 @@
       {% endfor %}
     </div>
     <div class="post__content [ flow p-y-400 ]">
+      <h2 id="ingredients">
+        Ingredients
+        <a class="heading-anchor" href="#ingredients">#</a>
+      </h2>
+      <ul>
+        {%- for ingredient in ingredients -%}
+        <li>{{ ingredient }}</li>
+        {%- endfor -%}
+      </ul>
       {{ content | safe }}
     </div>
   </div>

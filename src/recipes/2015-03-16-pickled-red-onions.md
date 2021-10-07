@@ -14,12 +14,11 @@ ingredients:
 tags:
   - sides
 ---
-{% image {
-  webpSrc: "/img/pickled-red-onion-1.webp",
-  jpgSrc: "/img/pickled-red-onion-1.jpeg",
-  alt: "A jar of freshly pickled bright pink red onions",
-  caption: "Fresh-made pickled onions"
-} %}
+{% image
+  "./src/img/pickled-red-onion-1.jpeg",
+  "Some pickled onions",
+  "(min-width: 860px) 900px, (min-width: 580px) 600px, 300px"
+%}
 
 ## Method
 1. Put a kettle full of water on to boil. Peel the onion, cut it in half, slice it as thin as you can, and place in a glass/non-reactive bowl .

@@ -48,9 +48,11 @@ h4 {
   font-size: var(--100);
 }
 
-img {
+img,
+picture {
   display: block;
-  width: 100%;
+  width: 100%; 
+  height: auto;
   max-width: inherit;
 }
 

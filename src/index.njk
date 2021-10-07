@@ -4,9 +4,22 @@ title: Home
 {% extends 'layouts/base.njk' %}
 
 {% block main %}
-  <ul>
-  {% for recipe in collections.recipes | reverse %}
-    <li><a href="{{ recipe.url }}">{{ recipe.data.title }}</a></li>
-  {% endfor %}
-  </ul>
+<div class="wrapper p-top-500">
+  <h1>Recipes</h1>
+</div>
+<div class="wrapper m-top-200">
+  <div class="wrapper__main">
+    <ol class="post-list" role="list">
+    {% for recipe in collections.recipes | reverse %}
+      <li class="post-list__item">
+        <h2><a href="{{ recipe.url }}">{{ recipe.data.title }}</a></h2>
+        <p class="m-top-200">{{ recipe.data.description }}</p>
+      </li>
+    {% endfor %}
+    </ol>
+  </div>
+  <div class="wrapper__sidebar">
+    <p>Hi, I'm Levi. I love to make food, and I think I'm a pretty decent cook. This is my recipe book.</p>
+  </div>
+</div>
 {% endblock main %}

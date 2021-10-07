@@ -5,6 +5,7 @@
 @use "./utilities/space";
 @use "./utilities/visibility";
 @use "./utilities/flow";
+@use "./utilities/wrapper";
 @use "./components/post";
 @use "./components/site-logo";
 @use "./components/site-header";
@@ -21,6 +22,41 @@
   border: 2px solid var(--color-ruler);
   border-radius: .5rem;
   margin-left: var(--size-100);
+}
+
+.post-list {
+  padding: 0;
+  
+  &__item {
+    padding-top: var(--size-200);
+    padding-bottom: var(--size-200);
+    border-top: 2px dashed var(--color-ruler);
+  }
+  
+  &__item h2 a {
+    text-decoration: none;
+  }
+  
+  &__item h2 a:hover {
+    text-decoration: underline;
+  }
+  
+  &__item p {
+    color: var(--color-text-light);
+  }
+}
+
+@media (min-width: $breakpoint-1) {
+  .post-list {
+    &__item {
+      padding-top: var(--size-400);
+      padding-bottom: var(--size-400);
+    }
+
+    &__item h2 {
+      font-size: var(--size-400);
+    }
+  }
 }
 
 

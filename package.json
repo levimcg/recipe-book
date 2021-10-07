@@ -9,7 +9,8 @@
     "sass:dev": "sass --load-path=node_modules src/scss:site/css --watch",
     "sass:build": "sass --load-path=node_modules --style=compressed  src/scss:site/css",
     "eleventy:build": "npx eleventy",
-    "build": "npm-run-all -s eleventy:build sass:build"
+    "build": "npm-run-all -s eleventy:build sass:build",
+    "clean": "rm -rf site"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   "homepage": "https://github.com/levimcg/recipe-book#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-img": "^0.8.3",
     "markdown-it": "^12.0.6",
     "markdown-it-anchor": "^7.1.0",
     "modern-css-reset": "^1.4.0",

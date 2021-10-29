@@ -3,9 +3,11 @@
 @use "modern-css-reset/dist/reset.css";
 @use "./base";
 @use "./layout";
+@use "./components/card";
 @use "./components/post";
 @use "./components/site-header";
 @use "./components/site-footer";
+@use "./components/eyebrow";
 @use "./components/hero";
 @use "./components/stats";
 @use "./utilities/space";
@@ -13,13 +15,3 @@
 @use "./utilities/visibility";
 @use "./utilities/flow";
 @use "./utilities/wrapper";
-
-
-
-.eyebrow {
-  text-transform: uppercase;
-  color: var(--color-accent);
-  font-family: $font-sans;
-  text-decoration: none;
-  letter-spacing: .05rem;
-}

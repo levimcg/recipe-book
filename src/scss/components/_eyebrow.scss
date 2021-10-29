@@ -1,0 +1,9 @@
+@use '../core/tokens' as *;
+
+.eyebrow {
+  text-transform: uppercase;
+  color: var(--color-accent);
+  font-family: $font-sans;
+  text-decoration: none;
+  letter-spacing: .05rem;
+}

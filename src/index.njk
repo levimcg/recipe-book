@@ -22,10 +22,18 @@ layout: "layouts/base.njk"
     <ol class="recipe-grid">
     {% for recipe in collections.recipes | reverse %}
       <li>
-        <img src="{{ recipe.data.hero_image if recipe.data.hero_image else 'http://www.fillmurray.com/600/400' }}" alt="">
-        <h2>
-          <a href="{{ recipe.url }}">{{ recipe.data.title }}</a>
-        </h2>
+        <div class="card">  
+          <div class="card__image">
+            <img
+              src="{{ recipe.data.hero_image if recipe.data.hero_image else 'http://www.fillmurray.com/600/400' }}"
+            >
+          </div>
+          <div class="card__body">
+            <h2 class="card__title">
+              <a href="{{ recipe.url }}">{{ recipe.data.title }}</a>
+            </h2>
+          </div>
+        </div>
       </li>
     {% endfor %}
     </ol>

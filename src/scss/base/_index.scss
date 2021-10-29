@@ -6,7 +6,7 @@ body {
 }
 
 body {
-  background-color: var(--color-background);
+  background-color: var(--color-background-100);
   color: var(--color-text);
   font-family: $font-serif;
   line-height: 1.55;
@@ -27,12 +27,11 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: $font-sans;
   line-height: 1.2;
 }
 
 h1 {
-  font-weight: 900;
+  font-weight: 800;
 }
 
 h1 {
@@ -79,7 +78,7 @@ time {
   font-size: var(--size-100);
 }
 
-@media (min-width: 46rem) {
+@media (min-width: $breakpoint-1) {
   h1 {
     font-size: var(--size-600);
   }

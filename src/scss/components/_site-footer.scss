@@ -1,14 +1,13 @@
+@use '../core/tokens' as *;
+
 .site-footer {
-  padding-top: var(--size-400);
-  padding-bottom: var(--size-400);
-  background-color: rgb(252, 190, 179);
   flex-shrink: 0;
 
   &__inner {
-    width: 90vw;
-    margin-right: auto;
-    margin-left: auto;
+    padding-top: var(--size-400);
+    padding-bottom: var(--size-400);
+    border-top: 1px solid var(--color-ruler);
     display: flex;
-    justify-content: center;
+    font-family: $font-sans;
   }
 }

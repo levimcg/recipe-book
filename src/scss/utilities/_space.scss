@@ -2,28 +2,28 @@
 
 @each $size, $rem in tokens.$sizes {
   .p-top-#{$size} {
-    padding-top: #{$rem};
+    padding-top: #{$rem} !important;
   }
   
   .p-bottom-#{$size} {
-    padding-bottom: #{$rem};
+    padding-bottom: #{$rem} !important;
   }
   
   .p-y-#{$size} {
-    padding-top: #{$rem};
-    padding-bottom: #{$rem};
+    padding-top: #{$rem} !important;
+    padding-bottom: #{$rem} !important;
   }
   
   .m-top-#{$size} {
-    margin-top: #{$rem};
+    margin-top: #{$rem} !important;
   }
   
   .m-bottom-#{$size} {
-    margin-bottom: #{$rem};
+    margin-bottom: #{$rem} !important;
   }
   
   .m-y-#{$size} {
-    margin-top: #{$rem};
-    margin-bottom: #{$rem};
+    margin-top: #{$rem} !important;
+    margin-bottom: #{$rem} !important;
   }
 }

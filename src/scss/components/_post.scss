@@ -2,24 +2,10 @@
 
 .post {
   --flow-space: var(--size-300);
-  width: 90vw;
-  max-width: 85ch;
-  margin-right: auto;
-  margin-left: auto;
-  
-  &__content {
-    border-top: 1px solid var(--color-ruler);
-  }
-}
-
-.post h1 + p {
-  font-size: var(--size-200);
-  line-height: 1.3;
-  color: var(--color-text-light);
 }
 
 .post :is(h2, h3, h4) {
-  --flow-space: var(--size-600);
+  --flow-space: var(--size-700);
 }
 
 .post :is(h2, h3, h4) + * {
@@ -53,12 +39,47 @@
   margin-left: calc(50% - 50vw);
 }
 
-.post time {
+.post ol {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-200);
+  list-style: none;
+  counter-reset: steps;
+  padding: 0;
   --flow-space: var(--size-400);
+  
+  li {
+    counter-increment: steps;
+    position: relative;
+    padding-left: var(--size-500);
+  }
+  
+  li::before {
+    content: counter(steps);
+    position: absolute;
+    color: var(--color-accent);
+    left: 0;
+    top: -.5rem;
+    font-family: $font-sans;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--size-400);
+    height: var(--size-400);
+    line-height: 1.1;
+    border: 3px solid var(--color-background-200);
+    background-color: var(--color-background-100);
+    border-radius: 50%;
+  }
 }
 
 @media (min-width: $breakpoint-1) {
-  .post h1 + p {
-    font-size: var(--size-300);
+  .post ol {
+    gap: var(--size-400);
+  }
+  
+  .post ol li::before {
+    top: -.15rem;
   }
 }

@@ -2,14 +2,11 @@
 <html lang="en">
 <head>
 {% include "head-content.njk" %}
-{% block head %}{% endblock %}
 </head>
 <body>
   {% include "header.njk" %}
   <main>
-  {% block main %}
-    {{ content | safe }}
-  {% endblock %}
+  {{ content | safe }}
   </main>
   {% include "footer.njk" %}
 </body>

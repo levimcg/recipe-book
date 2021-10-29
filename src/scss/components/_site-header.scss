@@ -1,10 +1,12 @@
 .site-header {
   flex-shrink: 0;
   width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  display: flex;
-  justify-content: center;
-  padding-top: var(--size-300);
-  padding-bottom: var(--size-300);
+  padding-top: var(--size-100);
+  padding-bottom: var(--size-100);
+  background-color: var(--color-background-200);
+  
+  &__inner {
+    display: flex;
+    align-items: center;
+  }
 }

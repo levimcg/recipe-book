@@ -3,8 +3,8 @@ date: 2015-03-16
 title: "Pickled Red Onions"
 body: archive-page
 description: These easy pickled onions make a great condiment for tacos and sandwiches. 
-prep: 5
-cook: 5
+prep: 5 min
+cook: 5 min
 ingredients:
   - 1 large red onion sliced thin
   - "2 limes (Enough for about 1/2 cup of juice)"

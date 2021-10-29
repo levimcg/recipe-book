@@ -1,12 +1,47 @@
+@use "../core/tokens" as *;
+
 .site-header {
   flex-shrink: 0;
   width: 100%;
   padding-top: var(--size-100);
   padding-bottom: var(--size-100);
-  background-color: var(--color-background-200);
+  background-color: var(--color-background-100);
   
   &__inner {
     display: flex;
     align-items: center;
+  }
+  
+  &__logo {
+    display: flex;
+    align-items: center;
+    color: var(--color-text);
+  }
+  
+  &__logo-icon {
+    width: var(--size-500);
+    height: var(--size-500);
+    display: block;
+  }
+  
+  &__nav {
+    margin-left: var(--size-400);
+  }
+  
+  &__nav ul {
+    display: flex;
+    list-style: "";
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+
+  &__nav ul li:not(:first-child) {
+    margin-left: var(--size-200);
+  }
+  
+  &__nav li a {
+    text-decoration: none;
+    font-family: $font-sans;
   }
 }

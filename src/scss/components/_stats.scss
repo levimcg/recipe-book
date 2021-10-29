@@ -1,0 +1,36 @@
+@use '../core/tokens' as *;
+
+.stats {
+  display: flex;
+  gap: var(--size-200);
+  border-top: 1px solid var(--color-ruler);
+  padding-top: var(--size-200);
+  
+  &__item-label {
+    font-family: $font-sans;
+    text-transform: uppercase;
+    font-size: var(--size-000);
+    color: var(--color-accent);
+  }
+  
+  &__item-number {
+    font-size: var(--size-200);
+    color: var(--color-text-light);
+  }
+}
+
+@media (min-width: $breakpoint-1) {
+  .stats {
+    gap: var(--size-400);
+    padding-top: var(--size-300);
+    
+    &__item-label {
+      font-size: var(--size-100);
+    }
+    
+    &__item-number {
+      font-size: var(--size-400);
+      line-height: 1.2;
+    }
+  }
+}

@@ -1,19 +1,19 @@
 <header class="site-header">
   <div class="site-header__inner [ wrapper ]">
-    <a href="/" class="site-logo">
-      <span class="site-logo__icon">
+    <a href="/" class="site-header__logo">
+      <span class="site-header__logo-icon">
         {% include "logo.svg" %}
       </span>
-      <span class="site-logo__title [ sr-only ]">{{ site.title }}</span>
+      <span class="site-header__title [ sr-only ]">{{ site.title }}</span>
     </a>
-    <nav class="site-nav">
-      {# <ul>
+    <nav class="site-header__nav">
+      <ul>
         {% for item in navigation %}
         <li>
           <a href="{{ item.url }}">{{ item.text }}</a>
         </li>
         {% endfor %}
-      </ul> #}
+      </ul>
     </nav>
   </div>
 </header>

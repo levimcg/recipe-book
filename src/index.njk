@@ -1,15 +1,33 @@
 ---
-title: Home
+title: Recipe Book
+description: An online home for my personal recipes.
 layout: "layouts/base.njk"
 ---
-<div class="wrapper">
-  <h1>Recipes</h1>
-  <ol>
-  {% for recipe in collections.recipes | reverse %}
-    <li>
-      <h2><a href="{{ recipe.url }}">{{ recipe.data.title }}</a></h2>
-      <p>{{ recipe.data.description }}</p>
-    </li>
-  {% endfor %}
-  </ol>
+<div class="wrapper flow">
+  <div class="hero{{ ' ' + 'hero--with-image' if hero_image }}">
+    <div class="hero__body flow">
+      <h1>{{ title }}</h1>
+      <p>{{ description }}</p>
+    </div>
+    {% if hero_image %}
+    <div class="hero__image">
+      <img src="{{ hero_image }}" alt="">
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+<div class="bg-background-000 p-y-700">
+  <div class="wrapper">
+    <ol class="recipe-grid">
+    {% for recipe in collections.recipes | reverse %}
+      <li>
+        <img src="{{ recipe.data.hero_image if recipe.data.hero_image else 'http://www.fillmurray.com/600/400' }}" alt="">
+        <h2>
+          <a href="{{ recipe.url }}">{{ recipe.data.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+    </ol>
+  </div>
 </div>

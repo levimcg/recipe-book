@@ -9,7 +9,7 @@ body {
   background-color: var(--color-background-100);
   color: var(--color-text);
   font-family: $font-serif;
-  line-height: 1.55;
+  line-height: 1.6;
   font-size: var(--size-100);
   display: flex;
   flex-direction: column;
@@ -28,10 +28,7 @@ h2,
 h3,
 h4 {
   line-height: 1.2;
-}
-
-h1 {
-  font-weight: 800;
+  font-weight: 600;
 }
 
 h1 {

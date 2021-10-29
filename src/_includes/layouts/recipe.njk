@@ -2,27 +2,33 @@
 layout: "layouts/base.njk"
 ---
 <div class="wrapper flow">
-
-  <div class="hero">
+  <div class="hero{{ ' ' + 'hero--with-image' if hero_image }}">
     <div class="hero__body flow">
-      <h1>{{ title }}</h1>
+      <div>
+        <a href="/" class="eyebrow">Recipes</a>
+        <h1>{{ title }}</h1>
+      </div>
       <p>{{ description }}</p>
-      <div class="timing">
-        <div class="timing__item">
-          <div class="timing__item-label">Prep</div>
-          <div class="timing__item-number">{{ prep }} min</div>
+      <div class="stats">
+        <div class="stats__item">
+          <div class="stats__item-label">Prep</div>
+          <div class="stats__item-number">{{ prep }}</div>
         </div>
-        <div class="timing__item">
-          <div class="timing__item-label">Cook</div>
-          <div class="timing__item-number">{{ cook }} min</div>
+        <div class="stats__item">
+          <div class="stats__item-label">Cook</div>
+          <div class="stats__item-number">{{ cook }}</div>
         </div>
       </div>
     </div>
+    {% if hero_image %}
     <div class="hero__image">
-      <img src="http://www.fillmurray.com/600/400" alt="">
+      <img src="{{ hero_image }}" alt="">
     </div>
+    {% endif %}
   </div>
-  
+</div>
+
+<div class="wrapper flow">
   <div class="post-grid">
     <div class="sidebar">
       <h2 id="ingredients">

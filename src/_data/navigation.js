@@ -1,14 +1,14 @@
 module.exports = [
   {
     text: "Recipies",
-    url: "/recipes/"
+    url: "/"
   },
   {
     text: "Categories",
-    url: "/categories/"
+    url: "/"
   },
   {
     text: "Quick tips",
-    url: "/quick-tips/"
+    url: "/"
   }
 ]

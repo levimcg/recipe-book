@@ -3,8 +3,8 @@ date: 2014-09-26
 title: Red Lentil Soup	
 body: archive-page
 description: Red lentils and lots of spices make this a great soup for early fall. Also, it doesn't hurt that it's so dang simple to make.
-prep: 15 minutes
-cook: 45 minutes
+prep: 15 min
+cook: 45 min
 ingredients:
   - 1 16oz. package of red lentils
   - 2 quarts of chicken stock

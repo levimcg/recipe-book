@@ -3,8 +3,8 @@ date: 2014-09-28
 title: Pasta & Bean Soup	
 body: archive-page
 description: This is just a mid-west version of pasta e fagioli (think Olive Garden). It's really fast to make and is hearty enough to be a meal on it's own.	
-prep: 15 minutes
-cook: 45 minutes
+prep: 15 min
+cook: 45 min
 ingredients:
   - 2 lbs. Ground beef
   - 1 onion finely diced

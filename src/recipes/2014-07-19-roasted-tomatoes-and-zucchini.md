@@ -3,8 +3,8 @@ date: 2014-07-19
 title: Roasted Tomatoes and Zucchini 
 body: archive-page
 description: Simple roasted, charred vegetables  with fresh mint.
-prep: 5 minutes
-cook: 20 minutes
+prep: 5 min
+cook: 20 min
 ingredients:
   - 3 small zucchini sliced
   - 1 pint of cherry or grape tomatoes

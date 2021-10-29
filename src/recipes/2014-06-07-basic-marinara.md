@@ -2,8 +2,8 @@
 date: 2014-06-07
 title: Basic Marinara
 description: This is a ridiculously easy recipe that the basis of my go weeknight dinners. I haven't bought pasta sauce in a jar since I mastered this one.
-prep: 5 minutes
-cook: 45 minutes
+prep: 5 min
+cook: 45 min
 ingredients:
   - 1 28oz. can of crushed or whole plum tomatoes 
   - 4 cloves garlic

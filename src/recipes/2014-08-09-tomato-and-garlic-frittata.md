@@ -3,8 +3,8 @@ date: 2014-08-09
 title: Tomato and Garlic Frittata
 body: archive-page
 description: I make a lot of frittatas for some reason. They sound really fancy, but are in fact, quite easy to make. It's a great way to use up a bunch of ingredients.
-prep: 5 minute
-cook: 40 minutes
+prep: 5 min
+cook: 40 min
 ingredients:
   - 8 eggs
   - 6 strips of bacon

@@ -17,8 +17,8 @@ ingredients:
   - 1 package of corn tortillas
   - 1 cucumber peeled, seeds removed, and diced small
   - Sriracha
-prep: 15 minutes + 24 hours marinating
-cook: 70-80 minutes
+prep: 15 min
+cook: 70 min
 tags:
   - asian
 ---

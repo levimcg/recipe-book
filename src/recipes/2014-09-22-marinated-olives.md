@@ -3,8 +3,8 @@ date: 2014-09-22
 title: Marinated Olives
 body: archive-page
 description: Whole Kalamata olives marinated simply in lemon juice and fresh chilies.
-prep: 5 minutes
-cook: 8-10 days
+prep: 5 min
+cook: 8 days
 ingredients:
   - 1 10oz. jar of whole (with the pits) Kalamata olives
   - 2 jalapeño peppers quartered

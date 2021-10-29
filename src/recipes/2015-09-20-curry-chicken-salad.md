@@ -3,7 +3,7 @@ date: 2015-09-20
 title: Curry Chicken Salad
 body: archive-page
 description: Creamy, fruity, just a little bit spicy—a fresh take on an old classic
-prep: 15 minutes
+prep: 15 min
 cook: n/a
 illo: curry-chicken-salad-illo-web.png
 ingredients:

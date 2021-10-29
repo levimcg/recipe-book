@@ -3,8 +3,8 @@ date: 2014-12-03
 title: Italian Beef	
 body: archive-page
 description: This is a classic slow cooker dish that is cheap, easy to make, and delicious.	
-prep: 10 minutes
-cook: 10 hours
+prep: 10 min
+cook: 10 hr
 ingredients:
   - (1) 3 lb. Top/bottom round beef roast
   - 2 cups beef broth or stock

@@ -3,8 +3,8 @@ date: 2014-08-05
 title: Roasted Potatoes
 body: archive-page
 description: This makes a quick side dish of simple roasted new potatoes with olive oil and parsley. Parboiling the potatoes first really makes the whole thing, so don't skip this step.
-prep: 5 minutes
-cook: 40 minutes
+prep: 5 min
+cook: 40 min
 ingredients:
   - 2 lbs small new potatoes
   - 2 TBspn olive oil

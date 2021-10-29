@@ -2,8 +2,8 @@
 date: 2020-08-24
 title: Apple Crumble
 description: "A super super easy recipe for a quick desert. Works well, with peaches, pears, anything really."
-prep: 5 minutes
-cook: 30-35 minutes
+prep: 5 min
+cook: 35 min
 ingredients:
   - 4-5 cooking apples (like granny smith)
   - 1 cup all-purpose flour

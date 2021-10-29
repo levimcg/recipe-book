@@ -16,8 +16,8 @@ ingredients:
   - 2 TBspn. chopped fresh mint
   - 1 egg
   - 1/3 cup plain breadcrumbs
-prep: 15 minutes
-cook: 30 minutes
+prep: 15 min
+cook: 30 min
 ---
 ## Method
 1. Combine all of the ingredients in a large mixing bowl. Use your hands to make sure that all of the ingredients are mixed together really well.

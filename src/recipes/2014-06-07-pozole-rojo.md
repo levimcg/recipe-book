@@ -3,8 +3,8 @@ date: 2014-06-07
 title: Pozole Rojo
 body: archive-page
 description: A traditional Mexican soup with pork and hominy.
-prep: 20 minutes
-cook: 2 hours
+prep: 20 min
+cook: 2 hr
 ingredients:
   - 2-3 ounces dried guajillo, ancho, or combo of both, chilies (about 10-12 whole dried chilies depending on size)
   - 2 large cans (28oz.) or 4 small (14.5oz) cans of white hominy drained and rinsed

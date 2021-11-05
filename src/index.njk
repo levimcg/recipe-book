@@ -2,6 +2,10 @@
 title: Recipe Book
 description: An online home for my personal recipes.
 layout: "layouts/base.njk"
+pagination:
+  data: collections.recipes
+  size: 9
+  reverse: true
 ---
 <div class="wrapper flow">
   <div class="hero{{ ' ' + 'hero--with-image' if hero_image }}">
@@ -20,13 +24,19 @@ layout: "layouts/base.njk"
 <div class="bg-background-000 p-y-700">
   <div class="wrapper">
     <ol class="recipe-grid">
-    {% for recipe in collections.recipes | reverse %}
+    {% for recipe in pagination.items %}
       <li>
         <div class="card">  
           <div class="card__image">
-            <img
-              src="{{ recipe.data.hero_image if recipe.data.hero_image else 'http://www.fillmurray.com/600/400' }}"
-            >
+            {% if recipe.data.hero_image %}
+              {% image
+                "./src/img/" + recipe.data.hero_image,
+                "Some pickled onions",
+                "(min-width: 860px) 900px, (min-width: 580px) 600px, 300px"
+              %}
+            {% else %}
+              <img src="http://www.fillmurray.com/600/400" alt="">
+            {% endif %}
           </div>
           <div class="card__body">
             <h2 class="card__title">
@@ -39,3 +49,5 @@ layout: "layouts/base.njk"
     </ol>
   </div>
 </div>
+
+{% include "partials/pagination.njk" %}

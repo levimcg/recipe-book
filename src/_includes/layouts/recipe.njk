@@ -22,7 +22,11 @@ layout: "layouts/base.njk"
     </div>
     {% if hero_image %}
     <div class="hero__image">
-      <img src="{{ hero_image }}" alt="">
+      {% image
+        "./src/img/" + hero_image,
+        "Some pickled onions",
+        "(min-width: 860px) 600px, (min-width: 580px) 300px, 300px"
+      %}
     </div>
     {% endif %}
   </div>

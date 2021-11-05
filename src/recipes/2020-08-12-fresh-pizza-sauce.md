@@ -5,7 +5,7 @@ description: This is a super simple pizza sauce doesn't even require cooking. Ju
 prep: 5 min
 cook: n/a
 ingredients:
-  - 1 28oz. can of crushed San Marzano tomoatoes
+  - 1 28oz. can of crushed San Marzano tomatoes
   - 1 Clove of garlic
   - Salt (optional)
 tags:

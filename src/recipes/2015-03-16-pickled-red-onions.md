@@ -2,7 +2,8 @@
 date: 2015-03-16
 title: "Pickled Red Onions"
 body: archive-page
-description: These easy pickled onions make a great condiment for tacos and sandwiches. 
+description: These easy pickled onions make a great condiment for tacos and sandwiches.
+hero_image: "pickled-red-onion-1.jpeg"
 prep: 5 min
 cook: 5 min
 ingredients:
@@ -19,7 +20,7 @@ tags:
 2. Squeeze the juice from the limes into a measuring cup. You should end up with about 1/2 cup of juice. Dissolve the sugar in the lime juice and set aside.
 3. Once the kettle is boiling, pour enough of the boiling water over the sliced onion to completely cover them.
 4. Let the onions set in the boiling water for about 15–30 seconds, **that’s it**.
-5. Strain the the onions in a colander and transfer to a re-sealable container. I use [This jar](http://www.ikea.com/us/en/catalog/products/90227985/) from IKEA, the same one I use for [marinated olives](../2014-09-22-marinated-olives). 
+5. Strain the the onions in a colander and transfer to a re-sealable container. I use [This jar](http://www.ikea.com/us/en/catalog/products/90227985/) from IKEA, the same one I use for [marinated olives](/recipes/marinated-olives). 
 6. Pour your juice/sugar mixture from step 2 over the par-boiled onions, add the oregano and cloves and stir to combine. 
 7. Let the onions cool on the counter for about five minutes, close up the jar, and put them in the refrigerator. They should last for about a week in the fridge.
 

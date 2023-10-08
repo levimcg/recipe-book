@@ -23,8 +23,7 @@
   },
   "homepage": "https://github.com/levimcg/recipe-book#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
-    "@11ty/eleventy-img": "^0.8.3",
+    "@11ty/eleventy": "^2.0.1",
     "markdown-it": "^12.0.6",
     "markdown-it-anchor": "^7.1.0",
     "modern-css-reset": "^1.4.0",

@@ -7,47 +7,16 @@ pagination:
   size: 9
   reverse: true
 ---
-<div class="wrapper flow">
-  <div class="hero{{ ' ' + 'hero--with-image' if hero_image }}">
-    <div class="hero__body flow">
-      <h1>{{ title }}</h1>
-      <p>{{ description }}</p>
-    </div>
-    {% if hero_image %}
-    <div class="hero__image">
-      <img src="{{ hero_image }}" alt="">
-    </div>
-    {% endif %}
-  </div>
-</div>
+<h1>{{ title }}</h1>
+<p>{{ description }}</p>
 
-<div class="bg-background-000 p-y-700">
-  <div class="wrapper">
-    <ol class="recipe-grid">
-    {% for recipe in pagination.items %}
-      <li>
-        <div class="card">  
-          <div class="card__image">
-            {% if recipe.data.hero_image %}
-              {% image
-                "./src/img/" + recipe.data.hero_image,
-                "Some pickled onions",
-                "(min-width: 860px) 900px, (min-width: 580px) 600px, 300px"
-              %}
-            {% else %}
-              <img src="http://www.fillmurray.com/600/400" alt="">
-            {% endif %}
-          </div>
-          <div class="card__body">
-            <h2 class="card__title">
-              <a href="{{ recipe.url }}">{{ recipe.data.title }}</a>
-            </h2>
-          </div>
-        </div>
-      </li>
-    {% endfor %}
-    </ol>
-  </div>
-</div>
+{% for recipe in pagination.items %}
+  <li>
+    <h2 class="card__title">
+      <a href="{{ recipe.url }}">{{ recipe.data.title }}</a>
+    </h2>
+    <p class="card__description">{{ recipe.data.description }}</p>
+  </li>
+{% endfor %}
 
 {% include "partials/pagination.njk" %}

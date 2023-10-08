@@ -2,6 +2,7 @@
 date: 2020-08-12
 title: Fresh Pizza Sauce
 description: This is a super simple pizza sauce doesn't even require cooking. Just make sure to use some really good canned tomatoes
+icon: 🍅
 prep: 5 min
 cook: n/a
 ingredients:

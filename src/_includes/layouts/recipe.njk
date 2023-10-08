@@ -1,51 +1,13 @@
 ---
 layout: "layouts/base.njk"
 ---
-<div class="wrapper flow">
-  <div class="hero{{ ' ' + 'hero--with-image' if hero_image }}">
-    <div class="hero__body flow">
-      <div>
-        <a href="/" class="eyebrow">Recipes</a>
-        <h1>{{ title }}</h1>
-      </div>
-      <p>{{ description }}</p>
-      <div class="stats">
-        <div class="stats__item">
-          <div class="stats__item-label">Prep</div>
-          <div class="stats__item-number">{{ prep }}</div>
-        </div>
-        <div class="stats__item">
-          <div class="stats__item-label">Cook</div>
-          <div class="stats__item-number">{{ cook }}</div>
-        </div>
-      </div>
-    </div>
-    {% if hero_image %}
-    <div class="hero__image">
-      {% image
-        "./src/img/" + hero_image,
-        "Some pickled onions",
-        "(min-width: 860px) 600px, (min-width: 580px) 300px, 300px"
-      %}
-    </div>
-    {% endif %}
-  </div>
-</div>
-
-<div class="wrapper flow">
-  <div class="post-grid">
-    <div class="sidebar">
-      <h2 id="ingredients">
-        Ingredients
-      </h2>
-      <ul role="list">
-        {%- for ingredient in ingredients -%}
-        <li>{{ ingredient | safe }}</li>
-        {%- endfor -%}
-      </ul>
-    </div>
-    <div class="flow post post-stage">
-      {{ content | safe }}
-    </div>
-  </div>
-</div>
+<h1>{{ title }}</h1>
+<h2>
+  Ingredients
+</h2>
+<ul role="list">
+  {%- for ingredient in ingredients -%}
+  <li>{{ ingredient | safe }}</li>
+  {%- endfor -%}
+</ul>
+{{ content | safe }}

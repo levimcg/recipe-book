@@ -3,7 +3,9 @@ date: 2015-03-16
 title: "Pickled Red Onions"
 body: archive-page
 description: These easy pickled onions make a great condiment for tacos and sandwiches.
-hero_image: "pickled-red-onion-1.jpeg"
+# hero_image:
+#   src: "./src/img/pickled-red-onion-1.jpeg"
+#   alt: "Jar of freshly pickled red onions with oregano and pepper corns"
 prep: 5 min
 cook: 5 min
 ingredients:

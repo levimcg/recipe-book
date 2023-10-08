@@ -3,15 +3,5 @@
 @use "modern-css-reset/dist/reset.css";
 @use "./base";
 @use "./layout";
-@use "./components/card";
-@use "./components/post";
-@use "./components/site-header";
-@use "./components/site-footer";
-@use "./components/eyebrow";
-@use "./components/hero";
-@use "./components/stats";
-@use "./utilities/space";
-@use "./utilities/color";
-@use "./utilities/visibility";
-@use "./utilities/flow";
-@use "./utilities/wrapper";
+@use "./components";
+@use "./utilities";

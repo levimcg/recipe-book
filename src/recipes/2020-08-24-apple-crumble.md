@@ -2,6 +2,7 @@
 date: 2020-08-24
 title: Apple Crumble
 description: "A super super easy recipe for a quick desert. Works well, with peaches, pears, anything really."
+icon: 🍏
 prep: 5 min
 cook: 35 min
 ingredients:

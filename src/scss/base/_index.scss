@@ -1,4 +1,5 @@
 @use "../core/tokens" as *;
+@use "./fonts";
 
 html,
 body {
@@ -47,7 +48,7 @@ h4 {
 img,
 picture {
   display: block;
-  width: 100%; 
+  width: 100%;
   height: auto;
   max-width: inherit;
 }
@@ -79,12 +80,12 @@ time {
   h1 {
     font-size: var(--size-600);
   }
-  
+
   h2,
   h3 {
     font-size: var(--size-300);
   }
-  
+
   p,
   ul,
   ol,

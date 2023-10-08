@@ -1,0 +1,17 @@
+<header class="site-header">
+  <a href="/" >
+    <div style="width: 45px;">
+      {% include "logo.svg" %}
+    </div>
+    <span>{{ site.title }}</span>
+  </a>
+  <nav>
+    <ul>
+      {% for item in navigation %}
+      <li>
+        <a href="{{ item.url }}">{{ item.text }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>

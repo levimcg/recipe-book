@@ -1,9 +1,10 @@
 ---
+date: 2020-08-24
 title: Apple Crumble
 description: "A super super easy recipe for a quick desert. Works well, with peaches, pears, anything really."
-date: 2020-08-24
-prep: 5 minutes
-cook: 30-35 minutes
+icon: 🍏
+prep: 5 min
+cook: 35 min
 ingredients:
   - 4-5 cooking apples (like granny smith)
   - 1 cup all-purpose flour
@@ -19,6 +20,7 @@ tags:
   - desert
   - fruit
 ---
+## Method
 1. For the filling, peel and slice the apples (or peaches, or whatever) into wedges. Mix the sliced fruit with the granulated sugar, cinnamon, lemon zest, and lemon juice.
 2. For the crumble topping, put the flour, oats, baking powder, salt, brown sugar, and butter into a bowl.
 3. Stir together breaking up the butter until all the pieces of butter are about the size of a pea.

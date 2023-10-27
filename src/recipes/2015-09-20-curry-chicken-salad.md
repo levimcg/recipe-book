@@ -1,8 +1,10 @@
 ---
+date: 2015-09-20
 title: Curry Chicken Salad
 body: archive-page
 description: Creamy, fruity, just a little bit spicy—a fresh take on an old classic
-prep: 15 minutes
+icon: 🐓
+prep: 15 min
 cook: n/a
 illo: curry-chicken-salad-illo-web.png
 ingredients:
@@ -14,7 +16,6 @@ ingredients:
   - 1 Cup of white grapes
   - 4 Scallions finely chopped
 tags:
-  - recipes
   - salads
 ---
 ## Method
@@ -24,5 +25,5 @@ tags:
 4. In a smaller bowl add the mayonnaise, lime juice, and curry powder and stir well to combine then add the mayonnaise mixture to the bowl with all of the other ingredients.
 5. Stir everythig until it all comes together. Cover and refrigerate.
 
-## Serving Tips
+## Notes
 This chicken salad goes great with some toasted bread and a cup of soup. It would also work really great on a bed of spinach as a tasty salad.

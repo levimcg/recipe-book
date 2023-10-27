@@ -1,14 +1,15 @@
 ---
+date: 2020-08-12
 title: Fresh Pizza Sauce
 description: This is a super simple pizza sauce doesn't even require cooking. Just make sure to use some really good canned tomatoes
-prep: 5 minutes
+icon: 🍅
+prep: 5 min
 cook: n/a
 ingredients:
-  - 1 28oz. can of crushed San Marzano tomoatoes
+  - 1 28oz. can of crushed San Marzano tomatoes
   - 1 Clove of garlic
   - Salt (optional)
 tags:
-  - recipes
   - pizza
   - sauce
 ---
@@ -20,5 +21,5 @@ This is a riff on the sauce recipe from the Pizza Camp cookbook. It goes perfect
 1. Add garlic to the crushed tomatoes and stir to combine
 1. Let set for about an hour so the flavors come together and then use on your pizza.
 
-## Tips
+## Notes
 Taste your tomatoes first to see if you need any salt. If you use some good San Marzano style tomatoes you shouldn't need any salt.

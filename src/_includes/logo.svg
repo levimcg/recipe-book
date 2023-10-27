@@ -1,5 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <title>Recipe book logo</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
   <g fill="currentColor">
     <path d="M12,0A12,12,0,1,0,24,12,12.06,12.06,0,0,0,12,0Zm-.5,6V7.5h-1v1h1v1h-1v1h1v1h-1v1h1v1h-1v1h1v1h-1v1h1V18h-8V6Zm1,10.5h1v-1h-1v-1h1v-1h-1v-1h1v-1h-1v-1h1v-1h-1v-1h1v-1h-1V6h8V18h-8Zm9-10.1a10.94,10.94,0,0,1,0,11.2ZM12,1a11,11,0,0,1,8.53,4H3.47A11,11,0,0,1,12,1ZM2.5,6.4V17.6a10.94,10.94,0,0,1,0-11.2ZM12,23a11,11,0,0,1-8.53-4H20.53A11,11,0,0,1,12,23Z"/>
     <rect x="4.54" y="7.5" width="5" height="1"/>

@@ -1,9 +1,10 @@
 ---
+date: 2014-09-22
 title: Marinated Olives
 body: archive-page
 description: Whole Kalamata olives marinated simply in lemon juice and fresh chilies.
-prep: 5 minutes
-cook: 8-10 days
+prep: 5 min
+cook: 8 days
 ingredients:
   - 1 10oz. jar of whole (with the pits) Kalamata olives
   - 2 jalapeño peppers quartered
@@ -11,7 +12,6 @@ ingredients:
   - light olive oil
 tags:
   - starters
-  - recipes
   - vegetarian
 ---
 ## Method
@@ -22,5 +22,5 @@ tags:
 5. Squeeze the juice of the lemon over the olives, and chilies, then pour over just enough of the light olive oil to barely cover the olives. It’s really important to use **light** olive oil here. Normal extra virgin oil has too strong of a flavor that will over-power the other ingredients.
 6. Put the lid on the jar and roll it around to combine all of the ingredients. Let it set out on the counter for 6-7 days gently turning it on it’s side and rolling once a day to stir. After about a week they should be really flavorful and ready to enjoy. They will last setting out on the counter for another week or so, probably longer if you keep them in the refrigerator.
 
-## Serving Tips
+## Notes
 These make a great snack on their own, or you can serve them with some pita bread and humus as starter. The marinated jalapeños are also really tasty. They really mellow out while marinating in the lemon and oil. I like them all most as much as the olives.

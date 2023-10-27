@@ -1,9 +1,10 @@
 ---
-title: Red Lentil Soup	
+date: 2014-09-26
+title: Red Lentil Soup
 body: archive-page
 description: Red lentils and lots of spices make this a great soup for early fall. Also, it doesn't hurt that it's so dang simple to make.
-prep: 15 minutes
-cook: 45 minutes
+prep: 15 min
+cook: 45 min
 ingredients:
   - 1 16oz. package of red lentils
   - 2 quarts of chicken stock
@@ -20,7 +21,6 @@ ingredients:
   - Salt
 tags:
   - soups
-  - recipes
   - vegetarian
 ---
 
@@ -35,5 +35,5 @@ I got the original recipe for this from my friend Jennifer. She got it from a co
 5. Simmer on medium to medium-low for about 45 minutes, or until the lentils are mostly falling apart.
 6. When the soup is done simmering, remove from the heat and use an immersion blender to roughly blend. I like to leave it a little chunky, but you can also blend it into a smooth soup. I like to taste the soup at this point and add salt as needed. Once the soup is blended chop your fresh cilantro roughly and stir it into the pot right before serving.
 
-## Serving Tips
+## Notes
 I like to serve this will a little bit of fresh plain yogurt on top and some lime wedges to squeeze over. You could toast some sliced almonds or raw cashews to throw on top too.

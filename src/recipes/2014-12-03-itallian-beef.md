@@ -1,9 +1,10 @@
 ---
-title: Italian Beef	
+date: 2014-12-03
+title: Italian Beef
 body: archive-page
-description: This is a classic slow cooker dish that is cheap, easy to make, and delicious.	
-prep: 10 minutes
-cook: 10 hours
+description: This is a classic slow cooker dish that is cheap, easy to make, and delicious.
+prep: 10 min
+cook: 10 hr
 ingredients:
   - (1) 3 lb. Top/bottom round beef roast
   - 2 cups beef broth or stock
@@ -13,8 +14,7 @@ ingredients:
   - 2 Bay leaves
   - 1 Jar of banana peppers
   - Salt
-tags: 
-  - recipes
+tags:
   - slowcooker
 ---
 ## Method
@@ -24,6 +24,6 @@ tags:
 4. At eight hours remove the roast from the slow cooker. At this point, it should pretty much be falling apart. Shred the meat with two fork and return to the slow cooker to combine with the juices.
 5. Add about half of the jar of banana peppers to the meat and stir to combine. Cook for the remaining two hours allowing the meat to soak up all of the juices.
 
-## Serving Tips
+## Notes
 Serve the beef on some crusty hoagie rolls with some provolone cheese and extra banana peppers on top.
 

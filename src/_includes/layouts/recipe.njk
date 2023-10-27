@@ -1,18 +1,25 @@
-{% extends 'layouts/base.njk' %}
-{% from 'recipe-header.njk' import recipeHeader %}
+---
+layout: "layouts/base.njk"
+---
+<div class="recipe-meta">
+  <div class="recipe-meta-item">
+    <div class="recipe-meta-label">Prep</div>
+    <div class="recipe-meta-value">{{ prep }}</div>
+  </div>
+  <div class="recipe-meta-item">
+    <div class="recipe-meta-label">Cook</div>
+    <div class="recipe-meta-value">{{ cook }}</div>
+  </div>
+</div>
 
-{% block main %}
-  <article class="recipe-layout">
-    {{-
-      recipeHeader({
-        title: title,
-        description: description,
-        illo: illo
-      })
-    -}}
-    {% include "recipe-sidebar.njk" %}
-    <div class="recipe-content">
-      {{ content | safe }}
-    </div>
-  </article>
-{% endblock %}
+<div class="recipe-content flow">
+  <h2 id="ingredients">
+    Ingredients
+  </h2>
+  <ul class="ingredient-list">
+    {%- for ingredient in ingredients -%}
+    <li>{{ ingredient | safe }}</li>
+    {%- endfor -%}
+  </ul>
+  {{ content | safe }}
+</div>

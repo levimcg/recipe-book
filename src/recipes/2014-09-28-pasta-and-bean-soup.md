@@ -1,8 +1,8 @@
 ---
 date: 2014-09-28
-title: Pasta & Bean Soup	
+title: Pasta & Bean Soup
 body: archive-page
-description: This is just a mid-west version of pasta e fagioli (think Olive Garden). It's really fast to make and is hearty enough to be a meal on it's own.	
+description: This is just a mid-west version of pasta e fagioli (think Olive Garden). It's really fast to make and is hearty enough to be a meal on it's own.
 prep: 15 min
 cook: 45 min
 ingredients:
@@ -34,6 +34,6 @@ tags:
 3. Once the beef is browned, add all remaining ingredients except the pasta. Stir it up really well to combine, and bring to a simmer.
 4. Gently simmer on medium-low heat for about 45 minutes, checking every 10 minutes or so to make sure everything is evenly combined.
 5. After 45 minute remove from the heat and add the pasta. Stir well, and cover for 15-20 minutes. The residual heat from the soup pot will cook the pasta without being on direct heat. Taste and add salt as needed.
- 
-## Serving Tips
+
+## Notes
 I like to serve this with a little bit of Parmesan cheese grated on top and some bread or maybe even a grilled cheese.

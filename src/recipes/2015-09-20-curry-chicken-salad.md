@@ -25,5 +25,5 @@ tags:
 4. In a smaller bowl add the mayonnaise, lime juice, and curry powder and stir well to combine then add the mayonnaise mixture to the bowl with all of the other ingredients.
 5. Stir everythig until it all comes together. Cover and refrigerate.
 
-## Serving Tips
+## Notes
 This chicken salad goes great with some toasted bread and a cup of soup. It would also work really great on a bed of spinach as a tasty salad.

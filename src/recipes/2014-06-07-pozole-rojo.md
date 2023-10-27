@@ -37,5 +37,5 @@ This is an adaptation of another recipe I found online. The original can be foun
 5. Strain the chili sauce through a sieve to remove any unwanted seeds and large bits of skin and then pour into the pot with the rest of the ingredients. Bring back to a simmer and cook partially covered for 1.5—2 hours string occasionally. Just make sure to keep the heat low, and it can simmer away for a while. While the pozole is cooking, prep/chop all of your garnish ingredients.
 6. Once the pazole is finished taste and season with salt as needed. I prefer to add my salt at the end, you can always add, but you can't take away.
 
-## Serving Tips
+## Notes
 Ladle into bowls and set out garnishes so people can load up their soup however they like. Don't skimp on the garnish, this is what really brings the whole thing together. I recommend having a couple of hot sauce options for people who want to spice it up a bit.

@@ -1,13 +1,25 @@
 ---
 layout: "layouts/base.njk"
 ---
-<h1>{{ title }}</h1>
-<h2>
-  Ingredients
-</h2>
-<ul role="list">
-  {%- for ingredient in ingredients -%}
-  <li>{{ ingredient | safe }}</li>
-  {%- endfor -%}
-</ul>
-{{ content | safe }}
+<div class="recipe-meta">
+  <div class="recipe-meta-item">
+    <div class="recipe-meta-label">Prep</div>
+    <div class="recipe-meta-value">{{ prep }}</div>
+  </div>
+  <div class="recipe-meta-item">
+    <div class="recipe-meta-label">Cook</div>
+    <div class="recipe-meta-value">{{ cook }}</div>
+  </div>
+</div>
+
+<div class="recipe-content flow">
+  <h2 id="ingredients">
+    Ingredients
+  </h2>
+  <ul class="ingredient-list">
+    {%- for ingredient in ingredients -%}
+    <li>{{ ingredient | safe }}</li>
+    {%- endfor -%}
+  </ul>
+  {{ content | safe }}
+</div>

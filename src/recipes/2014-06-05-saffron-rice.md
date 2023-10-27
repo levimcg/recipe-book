@@ -24,5 +24,5 @@ tags:
 5. Add about a 1/2 cup of the simmering chicken stock/saffron mixture to the rice pan and stir really well. Continue string until the chicken stock is mostly evaporated, about two or three minutes. Here is the nod to the risotto method. This will give the rice a little jump-start on cooking and infuse some nice flavor. Add the remaining chicken stock and and bring to a simmer. Reduce heat to medium-low and simmer uncovered for about 20 minutes.
 6. When the rice is done it will be a little chewy, this is a good thing. Taste for seasoning. Add the chopped parsley and salt to to taste, and stir to combine.
 
-## Serving Tips
+## Notes
 Squeeze a little lemon juice on top and serve on the side of a grilled pork chop, or piece of broiled white fish. You could also just eat a big plate full with a simple salad for a light summertime dinner.

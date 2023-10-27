@@ -5,7 +5,7 @@ description: This is a ridiculously easy recipe that the basis of my go weeknigh
 prep: 5 min
 cook: 45 min
 ingredients:
-  - 1 28oz. can of crushed or whole plum tomatoes 
+  - 1 28oz. can of crushed or whole plum tomatoes
   - 4 cloves garlic
   - 1 large shallot or half a small yellow onion
   - 1 TBspn dried 3 TBspn of fresh basil
@@ -24,5 +24,5 @@ tags:
 5. Add the bay leaf and basil, stirring to combine, and then bring to a simmer.
 6. Ideally you want to let it simmer for 45 minutes to an hour so that all of the flavors really get a chance to combine. But, if you are in a real hurry 20—30 minutes will get the job done. Taste and season with salt if needed, but usually the salt from the canned tomatoes will be plenty.
 
-## Serving Tips
+## Notes
 This stuff works as a sauce for any kind of pasta, or maybe over some meatballs. Just cook your favorite dried pasta according the box directions, drain and cover with the sauce. Finish it with some fresh grated hard cheese, a simple salad on the side, and glass of good red wine. I sometimes double or triple the recipe and then freeze the leftovers in individual servings to use later

@@ -1,5 +1,5 @@
 <nav aria-labelledby="my-pagination" class="pagination">
-  <h2 id="my-pagination" class="sr-only">This is my Pagination</h2>
+  <h2 id="my-pagination" class="visually-hidden">This is my Pagination</h2>
   <ol>
     <li>
     {% if pagination.href.previous %}
@@ -11,7 +11,7 @@
     {%- for pageEntry in pagination.pages %}
       <li>
         <a href="{{ pagination.hrefs[ loop.index0 ] }}"{% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page"{% endif %}>
-          <span class="sr-only">Page</span> {{ loop.index }}
+          <span class="visually-hidden">Page</span> {{ loop.index }}
         </a>
       </li>
     {%- endfor %}

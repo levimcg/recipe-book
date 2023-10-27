@@ -1,17 +1,20 @@
 <header class="site-header">
-  <a href="/" >
-    <div style="width: 45px;">
-      {% include "logo.svg" %}
-    </div>
-    <span>{{ site.title }}</span>
+  <a class="site-logo" href="/" aria-label="Levi McGranahan's Recipe Book">
+    <svg aria-hidden="true" width="48" height="48">
+      <use href="#logo"></use>
+    </svg>
   </a>
-  <nav>
-    <ul>
-      {% for item in navigation %}
+  <nav class="site-nav">
+    <ul role="list">
       <li>
-        <a href="{{ item.url }}">{{ item.text }}</a>
+        <a href="#">Recipes</a>
       </li>
-      {% endfor %}
+      <li>
+        <a href="#">About</a>
+      </li>
+      <li>
+        <a href="#">Archive</a>
+      </li>
     </ul>
   </nav>
 </header>

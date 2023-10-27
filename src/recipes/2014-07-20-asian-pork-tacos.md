@@ -2,7 +2,7 @@
 date: 2014-07-20
 title: Asian Pork Tacos
 body: archive-page
-description: Korean fusion style tacos with marinated pork loin, fresh cucumber, and cilantro. 
+description: Korean fusion style tacos with marinated pork loin, fresh cucumber, and cilantro.
 ingredients:
   - (1) 1.5—2 lbs. pork loin
   - 2 TBspns fresh ginger peeled and minced
@@ -31,5 +31,5 @@ tags:
 6. Once the pork has rested, use a sharp knife to slice it really thin.
 7. To make the tacos, stuff one tortilla with a bit of pork and then top with a TBspn of diced cucumber. Sprinkle with a little bit of the chopped cilantro, and then finish it off with a tiny squirt of Sriracha.
 
-## Serving Tips
+## Notes
 I like to just layout a big sheet of cooking parchment paper and  pre-assemble a bunch of tacos to eat family-style. Make sure to set out the cucumber, cilantros for anyone who wants to add more, and the Sriracha for anyone who likes their tacos spicy.

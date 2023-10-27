@@ -24,5 +24,5 @@ cook: 30 min
 2. Using your thumb, index, middle, and ring fingers to grab an approximate portion, roll the ground meat mixture into small balls about 1.5–2 inches in diameter and place on a large baking sheet covered in parchment paper. You should end up with about 25–30 meatballs by the time you are done rolling.
 3. Put the meatballs in the oven and cook for 20–25 minutes at 375°. Remove from the oven and allow to cool for 10 minutes before serving.
 
-## Serving Tips
+## Notes
 I like to make some couscous to go with these meatballs. They are also great with some [basic tomato sauce](http://recipes.levimcg.com/sauces/basic-marinara.html).

@@ -9,6 +9,8 @@ module.exports = function(eleventyConfig) {
   })
 
   eleventyConfig.addPassthroughCopy('./src/fonts')
+  eleventyConfig.addPassthroughCopy('./src/css')
+  eleventyConfig.addPassthroughCopy('./src/img')
 
   // Merge data E.g. tags on each .md file with directory data "tags" field
   // eleventyConfig.setDataDeepMerge(true)
@@ -27,11 +29,7 @@ module.exports = function(eleventyConfig) {
     breaks: true,
     linkify: true,
     typographer: true
-  }).use(markdownItAnchor, {
-    permalink: true,
-    permalinkClass: 'heading-anchor',
-    permalinkSymbol: '#'
-  })
+  }).use(markdownItAnchor)
 
   // Markdown settings for 11ty
   eleventyConfig.setLibrary('md', markdownLibrary)

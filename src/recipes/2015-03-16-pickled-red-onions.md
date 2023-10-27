@@ -22,9 +22,9 @@ tags:
 2. Squeeze the juice from the limes into a measuring cup. You should end up with about 1/2 cup of juice. Dissolve the sugar in the lime juice and set aside.
 3. Once the kettle is boiling, pour enough of the boiling water over the sliced onion to completely cover them.
 4. Let the onions set in the boiling water for about 15–30 seconds, **that’s it**.
-5. Strain the the onions in a colander and transfer to a re-sealable container. I use [This jar](http://www.ikea.com/us/en/catalog/products/90227985/) from IKEA, the same one I use for [marinated olives](/recipes/marinated-olives). 
-6. Pour your juice/sugar mixture from step 2 over the par-boiled onions, add the oregano and cloves and stir to combine. 
+5. Strain the the onions in a colander and transfer to a re-sealable container. I use [This jar](http://www.ikea.com/us/en/catalog/products/90227985/) from IKEA, the same one I use for [marinated olives](/recipes/marinated-olives).
+6. Pour your juice/sugar mixture from step 2 over the par-boiled onions, add the oregano and cloves and stir to combine.
 7. Let the onions cool on the counter for about five minutes, close up the jar, and put them in the refrigerator. They should last for about a week in the fridge.
 
-## Serving Tips
+## Notes
 These onions are great as a condiment on all kinds of tacos and sandwiches. The acidity really mellows out the onion-y taste and makes for really bright flavor that goes great with heavily seasoned taco meats.

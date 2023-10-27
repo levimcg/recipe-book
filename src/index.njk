@@ -7,16 +7,14 @@ pagination:
   size: 9
   reverse: true
 ---
-<h1>{{ title }}</h1>
-<p>{{ description }}</p>
 
-{% for recipe in pagination.items %}
-  <li>
-    <h2 class="card__title">
+<ul role="list" class="recipe-list flow">
+  {% for recipe in pagination.items %}
+    <li>
       <a href="{{ recipe.url }}">{{ recipe.data.title }}</a>
-    </h2>
-    <p class="card__description">{{ recipe.data.description }}</p>
-  </li>
-{% endfor %}
+      <p>{{ recipe.data.description }}</p>
+    </li>
+  {% endfor %}
+</ul>
 
 {% include "partials/pagination.njk" %}

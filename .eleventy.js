@@ -11,6 +11,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./src/fonts')
   eleventyConfig.addPassthroughCopy('./src/css')
   eleventyConfig.addPassthroughCopy('./src/img')
+  eleventyConfig.addPassthroughCopy('./src/favicon.png')
 
   // Merge data E.g. tags on each .md file with directory data "tags" field
   // eleventyConfig.setDataDeepMerge(true)

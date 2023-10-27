@@ -24,7 +24,6 @@ ingredients:
   - 2 TBspn. tomato paste
   - 3/4 cup ditilini pasta
   - 2 TBspn. olive oil
-  - salt
 tags:
   - soups
 ---

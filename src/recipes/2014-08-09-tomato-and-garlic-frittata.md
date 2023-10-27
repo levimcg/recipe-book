@@ -30,4 +30,4 @@ tags:
 9. Take it out of the oven and remove from the pan to a cooling rack. It should come right out because of the bacon grease.
 
 ## Notes
-Cool the frittata on a raised rack so that it doesn't get soggy and serve with some [roasted potatoes](http://recipes.levimcg.com/sides/roasted-potatoes.html). This recipe is really great cold also. I usually make one on Sunday's and we eat if for breakfast on the go.
+Cool the frittata on a raised rack so that it doesn't get soggy and serve with some roasted potatoes. This recipe is really great cold also. I usually make one on Sunday's and we eat if for breakfast on the go.

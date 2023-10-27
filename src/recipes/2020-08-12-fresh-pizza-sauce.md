@@ -21,5 +21,5 @@ This is a riff on the sauce recipe from the Pizza Camp cookbook. It goes perfect
 1. Add garlic to the crushed tomatoes and stir to combine
 1. Let set for about an hour so the flavors come together and then use on your pizza.
 
-## Tips
+## Notes
 Taste your tomatoes first to see if you need any salt. If you use some good San Marzano style tomatoes you shouldn't need any salt.

@@ -20,13 +20,38 @@
   --space-3xl: clamp(6.375rem, 5.9837rem + 1.9565vw, 7.5rem);
 
   /* Colors */
-  --color-background: hsl(48, 15%, 94%);
-  --color-text: hsl(214, 22%, 13%);
-  --color-text-muted: hsl(214, 22%, 30%);
+  --color-background: hsl(192, 88%, 90%);
+  --color-text: hsl(232, 26%, 23%);
+  --color-text-muted: hsl(214, 13%, 34%);
+  --color-text-disabled: hsl(214, 13%, 47%);
   --color-primary: hsl(213, 84%, 45%);
 
   /* Layout */
   --site-max-width: 960px;
+
+  /*
+   * Shadows
+   * See: https://www.joshwcomeau.com/shadow-palette/
+   */
+  --shadow-color: 193deg 36% 56%;
+  --shadow-elevation-low:
+    0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.34),
+    0.4px 0.8px 1px -1.2px hsl(var(--shadow-color) / 0.34),
+    1px 2px 2.5px -2.5px hsl(var(--shadow-color) / 0.34);
+  --shadow-elevation-medium:
+    0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.36),
+    0.8px 1.6px 2px -0.8px hsl(var(--shadow-color) / 0.36),
+    2.1px 4.1px 5.2px -1.7px hsl(var(--shadow-color) / 0.36),
+    5px 10px 12.6px -2.5px hsl(var(--shadow-color) / 0.36);
+  --shadow-elevation-high:
+    0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.34),
+    1.5px 2.9px 3.7px -0.4px hsl(var(--shadow-color) / 0.34),
+    2.7px 5.4px 6.8px -0.7px hsl(var(--shadow-color) / 0.34),
+    4.5px 8.9px 11.2px -1.1px hsl(var(--shadow-color) / 0.34),
+    7.1px 14.3px 18px -1.4px hsl(var(--shadow-color) / 0.34),
+    11.2px 22.3px 28.1px -1.8px hsl(var(--shadow-color) / 0.34),
+    17px 33.9px 42.7px -2.1px hsl(var(--shadow-color) / 0.34),
+    25px 50px 62.9px -2.5px hsl(var(--shadow-color) / 0.34);
 }
 
 /* Fonts */
@@ -73,7 +98,6 @@
 *::after {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
   font-family: inherit;
 }
 
@@ -85,6 +109,19 @@ body {
 
 a {
   color: var(--color-link, var(--color-text));
+  text-underline-offset: .25rem;
+  text-decoration-thickness: .125rem;
+  text-decoration-color: var(--color-primary);
+}
+
+a:hover {
+  text-decoration-thickness: .25rem;
+  text-decoration-color: hsl(0, 73%, 54%);
+}
+
+a:focus-visible {
+  outline: 3px dashed var(--color-primary);
+  outline-offset: calc(var(--space-xs) / 2);
 }
 
 ul[role="list"],
@@ -99,12 +136,13 @@ h4,
 h5,
 h6 {
   text-wrap: balance;
-  line-height: 1.2;
+  line-height: 1.1;
   letter-spacing: -.05rem;
 }
 
 h1 {
   font-size: var(--step-5);
+  letter-spacing: -.1rem;
 }
 
 h2 {
@@ -145,10 +183,10 @@ body {
   width: 90%;
   margin-inline: auto;
   background-color: var(--color-text);
-  background-image: url('/img/composition-pattern.jpg');
+  background-image: url('/img/composition-pattern.webp');
   background-size: 400px 400px;
   padding: var(--space-m);
-  box-shadow: 0 8px 10px 8px rgba(0, 0, 0, .15);
+  box-shadow: var(--shadow-elevation-high);
   border-top-left-radius: 4px;
   border-top-right-radius: 32px;
   border-bottom-right-radius: 32px;
@@ -172,13 +210,15 @@ body {
 }
 
 .site-logo {
-  width: 40px;
+  width: 48px;
+  height: 48px;
 }
 
 .site-nav ul {
   display: flex;
   list-style: none;
   gap: var(--space-m);
+  padding-inline-start: 0;
 }
 
 .site-nav ul li a {
@@ -192,7 +232,7 @@ body {
 }
 
 .page-container-inner {
-  padding-block-start: var(--space-l);
+  padding-block-start: var(--space-xl);
   padding-block-end: var(--space-s);
   padding-inline: var(--space-l);
   border-left: 1px solid hsl(0, 95%, 84%);
@@ -224,6 +264,7 @@ body {
 
 .recipe-list {
   margin-top: var(--space-l);
+  padding-inline-start: 0;
 }
 
 .recipe-list li {
@@ -241,8 +282,12 @@ body {
   text-decoration: underline;
 }
 
+.recipe-list li p {
+  color: var(--color-text-muted);
+}
+
 .recipe-content {
-  margin-block-start: var(--space-l);
+  margin-block-start: var(--space-xl);
 }
 
 .recipe-content :is(h2, h3, h4, h5, h6) {
@@ -254,7 +299,7 @@ body {
 }
 
 .recipe-content :is(a) {
-  color: var(--color-primary);;
+  color: var(--color-primary);
 }
 
 .recipe-content ol {
@@ -264,10 +309,11 @@ body {
   display: flex;
   flex-direction: column;
   gap: var(--space-l);
+  padding-inline-start: 0;
 }
 
 .recipe-content ol li {
-  padding-inline-start: var(--space-xl);
+  padding-inline-start: calc(var(--space-l) * 1.125);
   counter-increment: method-counter;
   position: relative;
 }
@@ -295,13 +341,15 @@ body {
 
 .recipe-meta-label {
   text-transform: uppercase;
-  font-size: var(--step--1);
+  font-size: var(--step--2);
+  letter-spacing: .1rem;
   color: var(--color-text-muted);
 }
 
 .recipe-meta-value {
   font-size: var(--step-2);
   font-weight: 700;
+  line-height: 1.3;
 }
 
 .ingredient-list {
@@ -309,6 +357,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: var(--space-xs);
+  padding-inline-start: 0;
 }
 
 .ingredient-list li {
@@ -334,13 +383,18 @@ body {
 .pagination {
   display: flex;
   justify-content: center;
-  margin-block-start: var(--space-m);
+  margin-block-start: var(--space-xl);
 }
 
 .pagination ol {
   list-style: none;
   display: flex;
   gap: var(--space-s);
+  padding-inline-start: 0;
+}
+
+.pagination ol li {
+  color: var(--color-text-disabled);
 }
 
 .pagination ol li a {
@@ -352,6 +406,32 @@ body {
   text-decoration: underline;
 }
 
-.pagination ol li {
-  color: var(--color-text-muted);
+.pagination ol li a[aria-current="page"] {
+  text-decoration: underline;
+}
+
+.site-footer {
+  margin-block-start: var(--space-2xl);
+  padding-block: var(--space-l);
+}
+
+.site-footer-inner {
+  max-width: var(--site-max-width);
+  margin-inline: auto;
+  width: 90%;
+}
+
+.skip-link {
+  position: fixed;
+  top: -6em;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* Utilities */
+
+.m-top-none {
+  margin-block-start: 0 !important;
 }

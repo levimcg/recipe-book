@@ -7,7 +7,7 @@
     "start": "npm run serve",
     "serve": "npx eleventy --serve",
     "eleventy:build": "npx eleventy",
-    "build": "npm-run-all -s eleventy:build",
+    "build": "npm run eleventy:build",
     "clean": "rm -rf site"
   },
   "repository": {

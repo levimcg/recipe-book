@@ -3,8 +3,13 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>{{ title }} - {{ metadata.title }}</title>
 <meta name="description" content="{{ metadata.description }}">
-<link rel="preload" href="/fonts/dm-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin="">
-<link rel="preload" href="/fonts/dm-sans-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="/fonts/dm-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/dm-sans-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.png">
 <link rel="canonical" href="https://recipes.levimcg.com">
-<link href="/css/styles.css" rel="stylesheet" type="text/css">
+{% set css %}
+  {% include "css/styles.css" %}
+{% endset %}
+<style>
+  {{ css | cssmin | safe }}
+</style>

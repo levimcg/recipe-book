@@ -1,15 +1,12 @@
 const dateTime = require('./src/filters/dateTime')
+const cssmin = require('./src/filters/cssmin')
 const shortcodes = require('./src/utils/shortcodes')
-const markdownIt = require('markdown-it');
+const markdownIt = require('markdown-it')
 const markdownItAnchor = require('markdown-it-anchor')
 
 module.exports = function(eleventyConfig) {
-  eleventyConfig.setServerOptions({
-    watch: ['./site/css/global.css']
-  })
 
   eleventyConfig.addPassthroughCopy('./src/fonts')
-  eleventyConfig.addPassthroughCopy('./src/css')
   eleventyConfig.addPassthroughCopy('./src/img')
   eleventyConfig.addPassthroughCopy('./src/favicon.png')
 
@@ -18,6 +15,7 @@ module.exports = function(eleventyConfig) {
 
   // Filters
   eleventyConfig.addFilter('dateFormatted', dateTime)
+  eleventyConfig.addFilter('cssmin', cssmin)
 
   // Shortcodes
   Object.keys(shortcodes).forEach(shortcode => {

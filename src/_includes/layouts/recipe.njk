@@ -22,4 +22,11 @@ layout: "layouts/base.njk"
     {%- endfor -%}
   </ul>
   {{ content | safe }}
+
+  <div class="last-updated">
+    {%- set updated -%}
+    {% if last_updated %}{{ last_updated }}{% else %}{{ date }}{% endif %}
+    {%- endset -%}
+    <span>Last updated: <time datetime="{{ date }}">{{ updated | dateFormatted }}</time></span>
+  </div>
 </div>

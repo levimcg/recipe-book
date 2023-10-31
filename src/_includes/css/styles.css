@@ -25,6 +25,8 @@
   --color-text-muted: hsl(214, 13%, 34%);
   --color-text-disabled: hsl(214, 13%, 47%);
   --color-primary: hsl(213, 84%, 45%);
+  --color-primary-muted: hsl(213, 84%, 80%);
+  --color-ruler: hsl(201, 81%, 90%);
 
   /* Layout */
   --site-max-width: 960px;
@@ -228,7 +230,7 @@ body {
 
 .page-container {
   padding-inline-start: var(--space-2xl);
-  border-bottom: 1px solid hsl(201, 81%, 90%);
+  border-bottom: 1px solid var(--color-ruler);
 }
 
 .page-container-inner {
@@ -321,7 +323,7 @@ body {
 .recipe-content ol li::before {
   position: absolute;
   content: counter(method-counter);
-  border: 2px solid var(--color-primary);
+  border: 2px solid var(--color-primary-muted);
   color: var(--color-primary);
   width: var(--space-m);
   height: var(--space-m);
@@ -444,6 +446,13 @@ body {
 
 .skip-link:focus {
   top: 0;
+}
+
+.last-updated {
+  margin-top: var(--space-l);
+  font-size: var(--step--1);
+  padding-block-start: var(--space-s);
+  border-top: 1px solid var(--color-ruler);
 }
 
 /* Utilities */

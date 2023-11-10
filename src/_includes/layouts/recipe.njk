@@ -27,6 +27,6 @@ layout: "layouts/base.njk"
     {%- set updated -%}
     {% if last_updated %}{{ last_updated }}{% else %}{{ date }}{% endif %}
     {%- endset -%}
-    <span>Last updated: <time datetime="{{ date }}">{{ updated | dateFormatted }}</time></span>
+    <span>Last updated: <time datetime="{{ date.toISOString() }}">{{ updated | dateFormatted }}</time></span>
   </div>
 </div>

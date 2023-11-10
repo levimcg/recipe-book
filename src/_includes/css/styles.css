@@ -121,9 +121,9 @@ a:hover {
   text-decoration-color: hsl(0, 73%, 54%);
 }
 
-a:focus-visible {
+*:focus-visible {
   outline: 3px dashed var(--color-primary);
-  outline-offset: calc(var(--space-xs) / 2);
+  outline-offset: calc(var(--space-xs) / 4);
 }
 
 ul[role="list"],
@@ -185,6 +185,11 @@ button:hover {
 
 :target {
   scroll-margin-block: var(--space-m);
+}
+
+.recipe-content :target {
+  transition: background-color 1s ease;
+  background-color: var(--color-primary-muted);
 }
 
 .flow > * + * {
@@ -458,6 +463,7 @@ body {
 .skip-link {
   position: fixed;
   top: -6em;
+  left: var(--space-m);
 }
 
 .skip-link:focus {

@@ -6,9 +6,12 @@ const markdownItAnchor = require('markdown-it-anchor')
 
 module.exports = function(eleventyConfig) {
 
+  eleventyConfig.addWatchTarget("./src/js/");
+
   eleventyConfig.addPassthroughCopy('./src/fonts')
   eleventyConfig.addPassthroughCopy('./src/img')
   eleventyConfig.addPassthroughCopy('./src/favicon.png')
+  eleventyConfig.addPassthroughCopy('./src/js')
 
   // Merge data E.g. tags on each .md file with directory data "tags" field
   // eleventyConfig.setDataDeepMerge(true)

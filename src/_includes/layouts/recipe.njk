@@ -22,7 +22,7 @@ layout: "layouts/base.njk"
     {%- endfor -%}
   </ul>
   {{ content | safe }}
-
+  {% include "partials/share.njk" %}
   <div class="last-updated">
     {%- set updated -%}
     {% if last_updated %}{{ last_updated }}{% else %}{{ date }}{% endif %}

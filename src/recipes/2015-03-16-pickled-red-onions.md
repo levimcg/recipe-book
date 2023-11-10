@@ -4,6 +4,7 @@ last_updated: 2023-10-31
 title: "Pickled Red Onions"
 body: archive-page
 description: These easy pickled onions make a great condiment for tacos and sandwiches.
+icon: 🧅
 prep: 5 min
 cook: 5 min
 ingredients:

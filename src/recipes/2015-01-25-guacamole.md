@@ -3,6 +3,7 @@ date: 2015-01-25
 title: Guacamole
 body: archive-page
 description: Super simple guacamole with lots of garlic and lime juice. Make sure to use a mortar and pestle on this. It makes a huge difference.
+icon: 🥑
 prep: 5 min
 cook: n/a
 ingredients:

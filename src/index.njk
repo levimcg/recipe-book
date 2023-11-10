@@ -9,7 +9,8 @@ pagination:
 ---
 <ul role="list" class="recipe-list flow">
   {% for recipe in pagination.items %}
-    <li>
+    <li class="flow">
+      {% if recipe.data.icon %}<span aria-hidden="true">{{ recipe.data.icon }}</span>&nbsp;{% endif %}
       <a href="{{ recipe.url }}">{{ recipe.data.title }}</a>
       <p>{{ recipe.data.description }}</p>
     </li>

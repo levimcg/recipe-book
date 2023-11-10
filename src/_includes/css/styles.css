@@ -24,8 +24,8 @@
   --color-text: hsl(232, 26%, 23%);
   --color-text-muted: hsl(214, 13%, 34%);
   --color-text-disabled: hsl(214, 13%, 47%);
-  --color-primary: hsl(213, 84%, 45%);
-  --color-primary-muted: hsl(213, 84%, 80%);
+  --color-primary: hsl(0, 74%, 50%);
+  --color-primary-muted: hsl(8, 84%, 90%);
   --color-ruler: hsl(201, 81%, 90%);
 
   /* Layout */
@@ -144,7 +144,7 @@ h6 {
 
 h1 {
   font-size: var(--step-5);
-  letter-spacing: -.1rem;
+  letter-spacing: -.15rem;
 }
 
 h2 {
@@ -163,6 +163,24 @@ img,
 picture {
   max-width: 100%;
   display: block;
+}
+
+button {
+  min-height: var(--space-m);
+  background-color: var(--color-primary);
+  color: #ffffff;
+  font-weight: 700;
+  border: none;
+  display: flex;
+  align-items: center;
+  padding-block: var(--space-xs);
+  padding-inline: var(--space-xs);
+  font-size: var(--step-0);
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 0 var(--space-3xs) 0 0 var(--color-primary-muted);
 }
 
 :target {
@@ -185,20 +203,16 @@ body {
   width: 90%;
   margin-inline: auto;
   background-color: var(--color-text);
-  background-image: url('/img/composition-pattern.webp');
-  background-size: 400px 400px;
+  background-image: url('/img/composition-pattern-360.webp');
+  background-size: 320px 320px;
   padding: var(--space-m);
   box-shadow: var(--shadow-elevation-high);
-  border-top-left-radius: 4px;
-  border-top-right-radius: 32px;
-  border-bottom-right-radius: 32px;
-  border-bottom-left-radius: 4px;
+  border-radius: var(--space-s);
 }
 
 .page-inner {
   background-color: #ffffff;
-  border-top-right-radius: 24px;
-  border-bottom-right-radius: 24px;
+  border-radius: var(--space-2xs);
 }
 
 .site-header {
@@ -270,18 +284,18 @@ body {
 }
 
 .recipe-list li {
+  --flow-space: var(--space-2xs);
   border-bottom: 1px solid hsl(201, 81%, 90%);
   padding-bottom: var(--space-s);
 }
 
 .recipe-list li a {
   font-size: var(--step-1);
-  text-decoration: none;
-  color: var(--color-primary);;
+  color: var(--color-primary);
 }
 
 .recipe-list li a:hover {
-  text-decoration: underline;
+  text-decoration-thickness: .25rem;
 }
 
 .recipe-list li p {
@@ -296,7 +310,7 @@ body {
   --flow-space: var(--space-xl);
 }
 
-.recipe-content :is(p, li) {
+.recipe-content :where(p, li) {
   color: var(--color-text-muted);
 }
 
@@ -315,7 +329,7 @@ body {
 }
 
 .recipe-content ol li {
-  padding-inline-start: calc(var(--space-l) * 1.125);
+  padding-inline-start: calc(var(--space-l) * 1.5);
   counter-increment: method-counter;
   position: relative;
 }
@@ -324,12 +338,14 @@ body {
   position: absolute;
   content: counter(method-counter);
   border: 2px solid var(--color-primary-muted);
-  color: var(--color-primary);
-  width: var(--space-m);
-  height: var(--space-m);
+  background-color: var(--color-primary);
+  color: var(--color-primary-muted);
+  font-weight: 700;
+  width: var(--space-l);
+  height: var(--space-l);
   display: flex;
   left: 0;
-  top: 0;
+  top: -.2rem;
   border-radius: 999rem;
   align-items: center;
   justify-content: center;
@@ -345,7 +361,7 @@ body {
   text-transform: uppercase;
   font-size: var(--step--2);
   letter-spacing: .1rem;
-  color: var(--color-text-muted);
+  color: var(--color-primary);
 }
 
 .recipe-meta-value {
@@ -415,7 +431,7 @@ body {
 }
 
 .pagination ol li a:hover {
-  background-color: var(--color-background);
+  background-color: var(--color-primary-muted);
 }
 
 .pagination ol li a[aria-current="page"]::after {
@@ -453,6 +469,29 @@ body {
   font-size: var(--step--1);
   padding-block-start: var(--space-s);
   border-top: 1px solid var(--color-ruler);
+}
+
+.share-url {
+  font-family: "ui-monospace", "Source Code Pro", "Consolas", "Menolo", "Courier New", Courier, monospace;
+  font-size: var(--step--1);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-weight: 700;
+  padding: var(--space-xs);
+  margin-top: var(--space-xs);
+  border-radius: .25rem;
+}
+
+.share-controls--enhanced {
+  display: flex;
+  gap: var(--space-s);
+  align-items: center;
+}
+
+.copy-notification-text {
+  font-size: var(--step-0);
+  font-weight: 700;
+  color: var(--color-primary);
 }
 
 /* Utilities */

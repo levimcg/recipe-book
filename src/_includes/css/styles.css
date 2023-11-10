@@ -333,13 +333,13 @@ body {
   padding-inline-start: 0;
 }
 
-.recipe-content ol li {
+.recipe-content ol > li {
   padding-inline-start: calc(var(--space-l) * 1.5);
   counter-increment: method-counter;
   position: relative;
 }
 
-.recipe-content ol li::before {
+.recipe-content ol > li::before {
   position: absolute;
   content: counter(method-counter);
   border: 2px solid var(--color-primary-muted);

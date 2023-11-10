@@ -2,6 +2,7 @@ const dateTime = require('./src/filters/dateTime')
 const cssmin = require('./src/filters/cssmin')
 const shortcodes = require('./src/utils/shortcodes')
 const markdownIt = require('markdown-it')
+const markdownItFootnote = require('markdown-it-footnote')
 const markdownItAnchor = require('markdown-it-anchor')
 
 module.exports = function(eleventyConfig) {
@@ -31,7 +32,9 @@ module.exports = function(eleventyConfig) {
     breaks: true,
     linkify: true,
     typographer: true
-  }).use(markdownItAnchor)
+  })
+    .use(markdownItAnchor)
+    .use(markdownItFootnote)
 
   // Markdown settings for 11ty
   eleventyConfig.setLibrary('md', markdownLibrary)

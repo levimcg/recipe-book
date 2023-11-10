@@ -32,7 +32,7 @@
       </div>
 
       <div class="page-container">
-        <div class="page-container-inner">
+        <div class="page-container-inner {{ 'p-bottom-m' if '/recipes/' in page.url }}">
           <p class="page-lead">{{ description }}</p>
           {{ content | safe }}
         </div>

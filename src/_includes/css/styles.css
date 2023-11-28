@@ -490,10 +490,15 @@ body {
   border-radius: .25rem;
 }
 
-.share-controls--enhanced {
+share-controls {
+  display: block;
+  margin-top: var(--space-md);
+}
+
+.sc-wrapper {
   display: flex;
   gap: var(--space-s);
-  align-items: center;
+  flex-wrap: wrap;
 }
 
 .copy-notification-text {

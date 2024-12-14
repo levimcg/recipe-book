@@ -20,7 +20,7 @@ tags:
 ## About
 This is an adaptation of another recipe I found online. The original can be found [here](http://www.simplyrecipes.com/recipes/posole_rojo/).
 
-## Method
+## Instructions
 1. Remove the stems, seeds, and large veins from the chilies. Bring  three cups of water to boil in a medium saucepan. Once the water is boiling add the dried chilies, cover and remove from the heat. Let the chilies soak for 15—20 minutes.
 2. While the chilies are soaking, heat a couple tablespoons of olive oil in a large dutch oven or stockpot. Season the pork generously with salt and brown on all sides in the dutch oven. Work in batches if necessary making sure not to crowd the meat. Remove the meat to a plate and set aside. Add a little more oil to the pot if needed and brown the onion and garlic for about 1 or 2 minutes until it's fragrant.
 3. Addd all of the meat back to the pot with the onion and garlic and cover with 2.5—3 quarts of water, working to scrape up the brown stuff from the bottom of the pot. Add the hominy, bay leaf, cumin, and oregano. Bring to a simmer and cook for 15 minutes.

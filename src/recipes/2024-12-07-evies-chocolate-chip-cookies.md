@@ -24,11 +24,12 @@ tags:
   - desert
 ---
 1. Cream together the shortening and white and brown sugar.
-2. Add Eggs, water, and vanilla extract to the creamed mixture and mix thoroughly
-3. Sift together flour, baking soda and salt. Add to the creamed mixture and mix until combined then fold in oats, chocolate chips, and nuts (if using).
-4. Use spoon or scoop to form dough into small balls (about 2-3 tablespoons each) on a parchment lined cookie sheet.
-5. Chill the dough on the cookie sheet(s) in the freezer for 30 minutes while you preheat the oven to 350°.
-7. Bake for 8–10 minutes or until done to your liking.
+1. Add Eggs, water, and vanilla extract to the creamed mixture and mix thoroughly
+1. Sift together flour, baking soda and salt. Add to the creamed mixture and mix until combined then fold in oats, chocolate chips, and nuts (if using).
+1. Chill the dough in the fridge for 30 minutes.
+1. After chilling for 30 minutes, use spoon or scoop to form dough into small balls (about 2-3 tablespoons each) on a parchment lined cookie sheet.
+1. Chill the dough again on the cookie sheet(s) in the freezer for another 30 minutes while you preheat the oven to 350°.
+1. Bake for 8–10 minutes or until done to your liking.
 
 ## Notes
 These are really great with chopped walnuts. Make sure to under cook them just a bit so they're really soft and chewy once they've cooled.

@@ -16,7 +16,7 @@ ingredients:
 tags:
   - sides
 ---
-## Method
+## Instructions
 1. Pour the chicken stock in a medium saucepan. **Add a good pinch of saffron threads** and start to bring to a simmer.
 2. Cut the tomato in half and grate over a bowl on the large holes of a box grater. Grate the pulpy part of the tomato until you get down to the skin and discard. Be careful and watch your knuckles! **_Note:_** This step isn't 100% necessary, you could just finely chop the tomato, but it makes for a more delicate and smooth final product.
 3. Heat a couple of tablespoons of olive oil in a sauté pan and add the onion, garlic, and grated tomato to the pan. Sauté the tomato, garlic, and onion mixture for 8-10 minutes until it starts to turn a dark reddish brown color. What we are doing here is make a variant of what is called [sofrito](http://en.wikipedia.org/wiki/Sofrito). It's basically a really rich flavor base for our rice. It's pretty standard in a lot of Spanish cooking.

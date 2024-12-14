@@ -17,7 +17,7 @@ tags:
   - starters
   - vegetarian
 ---
-## Method
+## Instructions
 1. Peel the garlic and put it in the mortar and pestle with about a  teaspoon of salt. Crush the garlic until it is paste-like. It will sort of look like a mashed up banana.
 2. Pit the avocados, remove the flesh with a spoon and dump it into the mortar and pestle with crushed garlic.
 3. Add the lime juice and the start bashing it all together until it turns into a slightly chunky consistency.

@@ -27,7 +27,7 @@ tags:
 ## About
 I got the original recipe for this from my friend Jennifer. She got it from a cook book of which I've completely forgot the title. I've made this soup a ton of times—adding a few things, taking away a few others, to the point where I'm not sure how much it even resembles the original. That's what I love about recipes. They are great starting point, but over time you can really make them your own.
 
-## Method
+## Instructions
 1. Rinse and drain the red lentils in a colander and set aside. This isn't 100% necessary but sometimes you find some weird lentil junk in the package that you don't want in your soup.
 2. In a large dutch oven or soup pot, heat a tablespoon or two of olive oil on medium-high heat. When the oil is hot, add the onion and cook until it starts to get translucent, about 5 minutes.
 3. Add the garlic and ginger, and cook for 2–3 minutes more. Add the can of tomatoes including their juice. Then add the curry powder, garam masala, cumin, and coriander and stir to combine.

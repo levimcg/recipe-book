@@ -16,7 +16,7 @@ ingredients:
 tags:
   - sauces
 ---
-## Method
+## Instructions
 1. Peel and finely chop the garlic and onion/shallot.
 2. If you are using whole plum tomatoes, drain and roughly chop them into chunks. You can even just crush them with your hands, it's more fun.
 3. Heat 2-3 TBspns of olive oil in a medium saucepan on medium-high heat. After a couple of minutes, when the oil is hot, add the garlic, onion, and red pepper flakes and sauté for 2-3 minutes, making sure not to let the garlic get brown. This will infuse the oil with a great garlicky, spicy flavor.

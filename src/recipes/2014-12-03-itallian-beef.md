@@ -3,6 +3,7 @@ date: 2014-12-03
 title: Italian Beef
 body: archive-page
 description: This is a classic slow cooker dish that is cheap, easy to make, and delicious.
+icon: 🥩
 prep: 10 min
 cook: 10 hr
 ingredients:

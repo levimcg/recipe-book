@@ -3,10 +3,15 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>{{ title }} - {{ metadata.title }}</title>
 <meta name="description" content="{{ metadata.description }}">
+<meta name="og:site_name" content="{{ metadata.title }}">
+<meta name="og:title" content="{{ title }}">
+<meta name="og:description" content="{{ description }}">
+<meta property="og:image" content="https://recipes.levimcg.com/img/recipes-og-image.jpg">
+<meta name="og:url" content="https://recipes.levimcg.com{{ page.url }}">
+<link rel="canonical" href="https://recipes.levimcg.com{{ page.url }}">
 <link rel="preload" href="/fonts/dm-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/dm-sans-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.png">
-<link rel="canonical" href="https://recipes.levimcg.com">
 {% set css %}
   {% include "css/styles.css" %}
 {% endset %}

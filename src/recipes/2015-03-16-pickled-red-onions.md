@@ -16,6 +16,7 @@ ingredients:
 tags:
   - sides
   - condiments
+  - mexican
 ---
 ## Instructions
 1. Peel and slice onion into thin strips from pole to pole (not across the grain). And place in a jar with a tight-fitting lid. I use [This jar](http://www.ikea.com/us/en/catalog/products/90227985/) from IKEA, the same one I use for [marinated olives](/recipes/marinated-olives).

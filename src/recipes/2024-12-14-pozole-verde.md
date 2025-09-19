@@ -20,6 +20,7 @@ ingredients:
   - 1 Tsp. Chicken Bullion Powder
 tags:
   - soup
+  - mexican
 ---
 ## Instructions
 

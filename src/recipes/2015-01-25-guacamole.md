@@ -7,21 +7,25 @@ icon: 🥑
 prep: 5 min
 cook: n/a
 ingredients:
-  - 2 Avocados
-  - 2 Cloves of garlic
-  - 1 Roma or similar size tomato diced
-  - 1-2 Tbspn. Fresh cilantro chopped
-  - Juice of half a lime
-  - salt
+  - 4 avocados
+  - 2 garlic cloves, crushed
+  - 2 tablespoons lime juice (about 1 lime)
+  - ½ cup chopped cilantro
+  - ¼ cup diced red onion
+  - Salt, to taste
 tags:
-  - starters
+  - dips
+  - sides
+  - appetizers
   - vegetarian
+  - mexican
 ---
+
 ## Instructions
-1. Peel the garlic and put it in the mortar and pestle with about a  teaspoon of salt. Crush the garlic until it is paste-like. It will sort of look like a mashed up banana.
-2. Pit the avocados, remove the flesh with a spoon and dump it into the mortar and pestle with crushed garlic.
-3. Add the lime juice and the start bashing it all together until it turns into a slightly chunky consistency.
-4. At this point you don’t want to crush up the tomatoes and cilantro so just use a spoon instead of the pestle to roughly mix them in before serving.
+1. Scoop the flesh of the avocados into a medium bowl.  
+2. Squeeze the juice of one lime (about 2 tablespoons) into the bowl with the avocados.  
+3. Add the remaining ingredients to the bowl and mix thoroughly.  
+4. Adjust with additional lime juice and salt to taste.  
 
 ## Notes
-If you really like lime juice squeeze the other half of the lime’s juice and mix it into the guacamole before serving. Serve with your favorite tortilla chips or on the side next time you make [tacos](/meals/asian-pork-tacos.html).
+The best way to make this is with a large mortar and pestle, or molcajete if you have one. It really makes a difference in the flavor. If using, start by crushing the garlic with a pinch of salt until it turns into a paste. Serve with your favorite tortilla chips or on the side next time you make [beef barbacoa](/recipes/barbacoa/).

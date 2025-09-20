@@ -6,10 +6,4 @@ I tend to tweak recipes every time I make a dish. Using Git and GitHub for versi
 
 ### To-dos:
 - [ ] Add [tag pages](https://www.11ty.dev/docs/quicktips/tag-pages/) for recipe types
-- [ ] Design and build home/index page
-- [ ] Design and build "About" page with new photo of Grandma's recipe book
-- [ ] Rework logo and incorporate hand-drawn styles
-- [ ] Continue adding images as you take new photos
-- [ ] Remove references to "illos" in front-matter (no longer in-use)
-- [ ] Add new "Method" list shortcode for more control over step-by-step list styling
-- [ ] Refine color palette and create design tokens
+- [ ] Add a static search using [Pagefind](https://pagefind.app/)

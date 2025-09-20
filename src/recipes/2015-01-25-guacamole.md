@@ -12,6 +12,7 @@ ingredients:
   - 2 tablespoons lime juice (about 1 lime)
   - ½ cup chopped cilantro
   - ¼ cup diced red onion
+  - 1 jalapeño finely diced
   - Salt, to taste
 tags:
   - dips

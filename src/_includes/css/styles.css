@@ -414,7 +414,7 @@ body {
 .pagination ol {
   list-style: none;
   display: flex;
-  gap: var(--space-xs);
+  gap: var(--space-xxs);
   padding-inline-start: 0;
   align-items: center;
 }

@@ -23,6 +23,7 @@ ingredients:
 tags:
   - desert
 ---
+## Method
 1. Cream together the shortening and white and brown sugar.
 1. Add Eggs, water, and vanilla extract to the creamed mixture and mix thoroughly
 1. Sift together flour, baking soda and salt. Add to the creamed mixture and mix until combined then fold in oats, chocolate chips, and nuts (if using).

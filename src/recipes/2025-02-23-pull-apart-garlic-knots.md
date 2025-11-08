@@ -17,7 +17,7 @@ ingredients:
 tags:
   - bread
 ---
-## Instructions
+## Method
 
 1. Start with 500g of my all-purpose dough. You can find the [recipe here](/recipes/multi-purpose-bread-dough/). While your dough is proofing, heat 1/4 cup of olive oil in a small skillet. One warm, add the stick of butter and heat until melted. Once the butter is melted add the crushed garlic and chili flakes. Turn off heat immediately and sit to the side and allow to cool to room temperature.
 1. Once proved and ready to use, divide the dough in half and then shape each half into a rough square. Cut the first piece of dough into 12 pieces. You're aiming for strips of dough that are about 1/2–3/4" wide and about 4" long. Tie each strip of dough into a knot and sit to one side. Repeat with the other half of your dough.

@@ -16,7 +16,7 @@ tags:
 ## About
 This is a riff on the sauce recipe from the Pizza Camp cookbook. It goes perfectly with the crust recipe from the same book.
 
-## Instructions
+## Method
 1. Crush with the back of your knife and then finely chop garlic clove
 1. Add garlic to the crushed tomatoes and stir to combine
 1. Let set for about an hour so the flavors come together and then use on your pizza.

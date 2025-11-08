@@ -16,7 +16,7 @@ tags:
   - sides
   - vegetarian
 ---
-## Instructions
+## Method
 1. Preheat your oven to 400 degrees. Wash the potatoes and halve any of the larger ones so that all the potatoes/pieces are close to equal in size.
 2. In a large pot, cover the potatoes with cold water and bring to a boil. Boil for about 10 minutes until the potatoes barely start to get tender.
 3. Drain the potatoes, and set aside for a few minutes so that they dry out really well.

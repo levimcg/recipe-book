@@ -15,7 +15,7 @@ tags:
   - starters
   - vegetarian
 ---
-## Instructions
+## Method
 1. Pour the olives into a strainer and rinse with water.
 2. Place the rinsed olives in a jar that is about twice the volume of the olives. [This jar](http://www.ikea.com/us/en/catalog/products/90227985/) I got at IKEA works really well for marinating, but you could also just use an old pickle jar. Fill up the jar with enough water to cover the olives and place in the refrigerator. After 24 hours dump out the water and fill the jar again with fresh water and place back in the refrigerator for one more day.
 3. This two day soak process is really important. It will allow some of the salt to leach out of the olives and give them a really nice, delicate flavor after marinating.

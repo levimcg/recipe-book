@@ -19,7 +19,7 @@ ingredients:
 tags:
   - salads
 ---
-## Instructions
+## Method
 1. Dice up the chicken breast into small cubes (about 1/2") and transfer to a large bowl.
 2. Slice the grapes in half, quarters if they are really big, and add them to the bowl with the chicken along with the finely chopped scallions.
 3. I usually just by whole roasted and salted cashews in a can. Measure out a cup, place them on your chopping board, chop them roughly then add them to the large bowl with the chicken, grapes, and scallions.

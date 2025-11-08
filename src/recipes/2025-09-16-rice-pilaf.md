@@ -23,7 +23,7 @@ tags:
   - sides
 ---
 
-## Instructions
+## Method
 
 1. Heat 2 tablespoons of olive oil in a medium pot over medium heat. Add the chopped onion and sauté for **3–5 minutes**, until translucent but not browned.  
 2. Add the rice and stir to coat each grain in the oil. Toast for **3–5 minutes**, stirring occasionally, until the rice just begins to take on a light golden color.  

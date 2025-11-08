@@ -16,7 +16,7 @@ tags:
   - sides
   - vegetarian
 ---
-## Instructions
+## Method
 1. Mix all of the ingredients in a large bowl making sure the oil coats everything.
 2. Pour on to a foil-lined baking sheet and roast under the broiler  for 15-20 minutes until the vegetables start to get charred all over. You may need to stir about half-way through the cooking so  that all of the vegetables get good and charred.
 _**NOTE:**_ You may need to go back and forth between the broil and back settings on your oven, just keep a close eye and make sure everything isn't getting too black.

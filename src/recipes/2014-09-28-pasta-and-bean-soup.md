@@ -27,7 +27,7 @@ ingredients:
 tags:
   - soups
 ---
-## Instructions
+## Method
 1. Heat the olive oil in a large Dutch oven or soup pot. Once the oil is hot add the onion, carrot, and celery. Cook for about five minutes, or until the onion is translucent. Add the garlic and cook for two more minutes, making sure not to let the garlic get brown.
 2. Add the ground beef to the pot making sure to break it up with your fingers. Brown the beef, thoroughly string it into the onion, carrot, celery, and garlic mixture.
 3. Once the beef is browned, add all remaining ingredients except the pasta. Stir it up really well to combine, and bring to a simmer.

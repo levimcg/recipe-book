@@ -15,7 +15,7 @@ ingredients:
 tags:
   - bread
 ---
-## Instructions
+## Method
 
 1. Mix all ingredients in a medium mixing bowl until well incorporated. There should be no flour left in the bowl and dough should be slightly shaggy and not smooth.
 1. At this point you have two paths you can take to finish the dough. **1.)** Place the dough in a bowl, cover the dough in plastic wrap and place in the fridge. You can leave the dough as is for 24–48 hours covered in the fridge without any kneading. This is the most hands-off way and produces a bread with great flavor. Or, **2.)** Perform a series of three stretch and folds on the dough every 30–45 minutes until the dough is smooth, elastic, and ready to proof before baking.[^1]

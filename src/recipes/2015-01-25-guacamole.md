@@ -22,7 +22,7 @@ tags:
   - mexican
 ---
 
-## Instructions
+## Method
 1. Scoop the flesh of the avocados into a medium bowl.  
 2. Squeeze the juice of one lime (about 2 tablespoons) into the bowl with the avocados.  
 3. Add the remaining ingredients to the bowl and mix thoroughly.  

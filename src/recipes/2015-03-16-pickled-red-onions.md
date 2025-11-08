@@ -18,7 +18,7 @@ tags:
   - condiments
   - mexican
 ---
-## Instructions
+## Method
 1. Peel and slice onion into thin strips from pole to pole (not across the grain). And place in a jar with a tight-fitting lid. I use [This jar](http://www.ikea.com/us/en/catalog/products/90227985/) from IKEA, the same one I use for [marinated olives](/recipes/marinated-olives).
 1. At this point you could add additional aromatics like oregano, or garlic. More on that in the notes below.
 1. Combine water, vinegar, salt, and sugar in a small sauce pan and bring to a boil and stir to combine ingredients.

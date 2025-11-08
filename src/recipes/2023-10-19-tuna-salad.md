@@ -16,6 +16,7 @@ ingredients:
 tags:
   - salad
 ---
+## Method
 1. Drain the cans of tuna and add them to a mixing bowl along with all of the remaining ingredients.
 2. Mix until well combined.
 3. Serve with crackers, make a tuna melt, or use it any other way you like tuna salad.

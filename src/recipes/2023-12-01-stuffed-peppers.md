@@ -23,7 +23,7 @@ tags:
   - rice
   - mains
 ---
-## Instructions
+## Method
 
 1. Cut tops off of peppers and scoop out all the seeds and ribs inside, cut the onion into small dice, cut the top off the fennel and cut it into small dice, peel and mince the garlic cloves, dice the leftover pepper tops to use in the filling. Preheat your oven to 400
 2. Heat a large dutch oven or high-sided pot over medium heat and swirl in a teaspoon of olive oil. Add the beef and brown breaking apart into small pieces. One it's cooked through remove with a slotted spoon to a separate plate.

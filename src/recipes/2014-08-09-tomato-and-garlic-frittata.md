@@ -18,7 +18,7 @@ ingredients:
 tags:
   - vegetarian
 ---
-## Instructions
+## Method
 1. Preheat your oven to 400° and line a large baking sheet with foil.
 2. Halve all of the grape tomatoes and place in a large bowl. Add one Tablespoon of the olive oil and a good pinch of salt—stir with your hands to combine. Whack the garlic cloves with a knife leaving on the skins. Place them on a sheet of foil and pour over the remaining 1 TBspn of olive oil. Wrap the foil over the garlic and into a loose ball.
 3. Dump the tomato and oil mixture on one half and the baking sheet and the foil/garlic ball on the other. Roast both at 400° for 15 minutes or so, until the tomatoes start to brown a little. Remove from the oven and set aside. When the garlic is cool remove the skins and then smash and mince into a paste.

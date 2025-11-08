@@ -14,6 +14,7 @@ ingredients:
 tags:
   - starter
 ---
+## Method
 1. Set cream cheese out at least one hour before starting. Once softened add to a mixing bowl.
 2. Cute the Velveeta into 1" cubes and add it to the bowl with the cream cheese.
 3. Add the diced onion and MSG to the bowl and stir well to combine[^1].

@@ -20,7 +20,7 @@ tags:
 ## About
 Adapted from this recipe from [this one](https://preppykitchen.com/hashbrown-casserole/#recipe) I found online. I've modified some of the ingredient amounts to our family's taste, but it's very similar.
 
-## Instructions
+## Method
 1. Preheat the oven to 350 then to a large mixing bowl add the frozen hash brown, onion, sour cream, cream of chicken soup, half of the [^1]shredded cheddar, salt and [^2]pepper. Reserve the other half of the cheese and the panko (if using) for the topping.
 2. Mix the ingredients thoroughly and the put them into a 9x13" baking dish.
 3. Top with the other half of the cheese and cover with foil. Place in preheated oven and bake for 30 minutes.

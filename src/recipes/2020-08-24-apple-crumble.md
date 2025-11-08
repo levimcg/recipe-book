@@ -20,7 +20,7 @@ tags:
   - desert
   - fruit
 ---
-## Instructions
+## Method
 1. For the filling, peel and slice the apples (or peaches, or whatever) into wedges. Mix the sliced fruit with the granulated sugar, cinnamon, lemon zest, and lemon juice.
 2. For the crumble topping, put the flour, oats, baking powder, salt, brown sugar, and butter into a bowl.
 3. Stir together breaking up the butter until all the pieces of butter are about the size of a pea.

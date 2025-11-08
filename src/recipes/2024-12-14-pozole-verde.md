@@ -22,7 +22,7 @@ tags:
   - soup
   - mexican
 ---
-## Instructions
+## Method
 
 1. Put one of the poblanos, the tomatillos, and one of the jalapeños under the broiler to char and roast for about 10 minutes.
 1. Brown chicken thighs in a Dutch oven or heavy bottom pot. Once they've browned and leaving behind some brown bits on the bottom of the pot, remove and set aside.

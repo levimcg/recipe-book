@@ -18,7 +18,7 @@ ingredients:
 tags:
   - slowcooker
 ---
-## Instructions
+## Method
 1. Add the beef broth, salad dressing mix, basil, oregano, and bay leaves to a medium sauce. Stir to combine and bring the mixture to a simmer. Remove from the heat and set aside.
 2. Put the beef roast in the slow cooker, sprinkle with a good pinch of salt, and pour the beef broth mixture over top.
 3. Cook for 10 hours on the low setting and **don't take off the lid**. This is the most important part. We are using a cheap and therefore tougher cut of meat so you will need all the moisture you can get!

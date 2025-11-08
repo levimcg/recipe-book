@@ -407,14 +407,13 @@ body {
 
 .pagination {
   display: flex;
-  justify-content: center;
-  margin-block-start: var(--space-xl);
+  margin-block-start: var(--space-2xl);
 }
 
 .pagination ol {
   list-style: none;
   display: flex;
-  gap: var(--space-xxs);
+  gap: var(--space-m);
   padding-inline-start: 0;
   align-items: center;
 }

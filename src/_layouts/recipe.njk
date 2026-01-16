@@ -1,5 +1,5 @@
 ---
-layout: "layouts/base.njk"
+layout: "base.njk"
 ---
 <div class="recipe-meta">
   <div class="recipe-meta-item">
@@ -27,6 +27,6 @@ layout: "layouts/base.njk"
     {%- set updated -%}
     {% if last_updated %}{{ last_updated }}{% else %}{{ date }}{% endif %}
     {%- endset -%}
-    <span>Last updated: <time datetime="{{ date.toISOString() }}">{{ updated | dateFormatted }}</time></span>
+    <span>Last updated: <time datetime="{{ date.toISOString() }}">{{ updated | formatDate }}</time></span>
   </div>
 </div>

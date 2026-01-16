@@ -1,6 +1,6 @@
 ---
 title: About
-layout: "layouts/default.njk"
+layout: default.njk
 ---
 Once while visiting my mom at Christmas I came across <a href="http://instagram.com/p/NXSfZMmebz/" target="_blank">my great-grandmother's recipe book</a>. It's this super old and ratty spiral-bound notebook that my mom had managed to hold on to all these years. I never met my great-grandmother, but from what I hear she was quite the cook, and I imagine that this particular notebook contained just a handful of the dishes in her repertoire.
 

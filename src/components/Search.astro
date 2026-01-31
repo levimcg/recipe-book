@@ -1,0 +1,229 @@
+---
+import SearchPlaceholder from "@components/SearchPlaceholder.astro";
+---
+<recipe-search>
+	<button data-dialog-button class="search-button">
+		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+			<circle cx="11" cy="11" r="8"></circle>
+			<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+		</svg>
+		<span>Search</span>
+	</button>
+	<dialog
+		data-search-dialog
+		class="search-dialog"
+		data-pagefind-ignore
+	>
+		<div class="search-dialog-heading">Find a recipe</div>
+		<div class="search-dialog-inner" id="search-dialog">
+			<!-- <SearchPlaceholder /> -->
+		</div>
+		<button data-search-dialog-close class="search-dialog-close" aria-label="Close dialog">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+				<line x1="18" y1="6" x2="6" y2="18"></line>
+				<line x1="6" y1="6" x2="18" y2="18"></line>
+			</svg>
+		</button>
+	</dialog>
+</recipe-search>
+
+<script>
+	class RecipeSearch extends HTMLElement {
+		dialogButton = null;
+		dialogElement = null;
+		dialogCloseButton = null;
+
+		constructor() {
+			super();
+			this._handleClick = this._handleClick.bind(this);
+			this.handleKeydown = this.handleKeydown.bind(this);
+		}
+
+		connectedCallback() {
+			this.dialogButton = this.querySelector('[data-dialog-button]');
+			this.dialogElement = this.querySelector('[data-search-dialog]');
+			this.dialogCloseButton = this.querySelector('[data-search-dialog-close]');
+
+			this.addEventListener('click', this._handleClick);
+			this.addEventListener('keydown', this.handleKeydown);
+
+			window.addEventListener('DOMContentLoaded', async () => {
+				if (import.meta.env.DEV) return;
+
+				const { PagefindUI } = await import('@pagefind/default-ui');
+				new PagefindUI({
+					element: '#search-dialog'
+				});
+			});
+
+			console.log(import.meta.env.BASE_URL);
+		}
+
+		_handleClick(event) {
+			if (this.dialogButton.contains(event.target)) {
+				this.openSearchDialog();
+			} else if (this.dialogCloseButton.contains(event.target)) {
+				this.closeSearchDialog();
+			}
+		}
+
+		handleKeydown(event) {
+			if (event.key == 'Escape' && this.dialogElement.contains(event.target)) {
+				this.closeSearchDialog();
+			}
+		}
+
+		openSearchDialog() {
+			document.body.classList.add('search-dialog-open');
+			this.dialogElement.showModal();
+		}
+
+		closeSearchDialog() {
+			this.dialogElement.close();
+			document.body.classList.remove('search-dialog-open');
+		}
+	}
+
+	customElements.define('recipe-search', RecipeSearch);
+</script>
+
+<style>
+	recipe-search {
+		display: flex;
+		width: 100%;
+		max-width: 20rem;
+	}
+
+	.search-dialog-inner {
+		position: relative;
+	}
+
+	.search-dialog-heading {
+		font-size: var(--step-2);
+		letter-spacing: initial;
+		padding-inline-start: var(--space-m);
+		padding-block-start: var(--space-3xs);
+	}
+
+	.search-button {
+		background-color: var(--color-background-default);
+		border: 1px solid var(--color-ruler);
+		display: flex;
+		gap: var(--space-2xs);
+		align-items: center;
+		padding-inline: var(--space-xs);
+		height: var(--step-4);
+		width: 100%;	
+		color: var(--color-text-muted);
+		font-size: var(--step--1);
+	}
+
+	.search-button:hover {
+		cursor: pointer;
+	}
+
+	.search-dialog {
+		border: none;
+		margin: auto;
+		width: 82%;
+		max-width: 48rem;
+		min-height: 12rem;
+		max-height: calc(100% - 4rem);
+		box-shadow: var(--shadow-elevation-medium);
+		border-radius: var(--space-xs);
+	}
+
+	.search-dialog::backdrop {
+		backdrop-filter: blur(.125rem);
+		background-color: hsl(232 26% 23% / .5);
+	}
+
+	.search-dialog-close {
+		background-color: transparent;
+		position: absolute;
+		top: var(--space-s);
+		right: var(--space-s);
+		width: var(--step-2);
+		height: var(--step-2);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0;
+		border: none;
+		cursor: pointer;
+	}
+</style>
+
+<style is:global>
+	.search-dialog-open {
+		overflow: hidden;
+	}
+
+	.pagefind-ui__form {
+		padding-block: var(--space-l);
+		padding-inline: var(--space-l);
+	}
+
+	.pagefind-ui__search-input,
+	.pagefind-ui__search-clear {
+		height: var(--step-4);
+		font: inherit;
+	}
+
+	.pagefind-ui__search-input {
+		width: 100%;
+		display: inline;
+		padding-inline: var(--space-xs);
+		border: 1px solid var(--color-text-muted);
+		border-radius: var(--space-3xs);
+		font-size: var(--step--1);
+	}
+
+	.pagefind-ui__search-clear {
+		display: none;
+	}
+
+	.pagefind-ui__message {
+		margin-block-start: var(--space-m);
+		font-size: var(--step--1);
+		color: var(--color-text-muted);
+	}
+
+	.pagefind-ui__results {
+		list-style: '';
+		margin-block-start: var(--space-2xs);
+		padding-inline-start: 0;
+		display: flex;
+		flex-direction: column;
+		gap: var(--space-s);
+	}
+
+	.pagefind-ui__result {
+		border-top: 1px solid var(--color-ruler);
+		padding-block-start: var(--space-xs);
+	}
+
+	.pagefind-ui__result-excerpt {
+		font-size: var(--step--1);
+		margin-block-start: var(--space-2xs);
+
+		& mark {
+			background-color: var(--color-primary-muted);
+		}
+	}
+
+	.pagefind-ui__button {
+		cursor: pointer;
+		font-family: inherit;
+		font-weight: 700;
+		margin-block-start: var(--space-m);
+		width: 100%;
+		background-color: var(--color-primary);
+		color: var(--color-background-default);
+		border: none;
+		height: var(--step-4);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+</style>

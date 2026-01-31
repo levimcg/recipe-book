@@ -1,0 +1,146 @@
+<h2>Share this recipe</h2>
+
+<share-controls copy="copy-button" share="share-button">
+    <button class="button" id="copy-button">Copy link</button>
+    <button class="button" id="share-button">Share</button>
+</share-controls>
+
+<style>
+    share-controls {
+        display: flex;
+        gap: var(--space-s);
+    }
+</style>
+
+<script>
+    export class ShareControls extends HTMLElement {
+        #clipboardSupport = "clipboard" in window.navigator;
+        #shareSupport = "share" in window.navigator;
+        copyElement;
+        shareElement;
+        fallbackElement;
+        copyNotification = "Link copied to clipboard";
+        liveRegion;
+
+        static tagName = "share-controls";
+
+        static register() {
+            if (!window.customElements.get(this.tagName)) {
+                window.customElements.define(this.tagName, this);
+            }
+        }
+
+        get copy() {
+            return this.getAttribute("copy");
+        }
+
+        get share() {
+            return this.getAttribute("share");
+        }
+
+        get url() {
+            return this.getAttribute("url") || window.location.href;
+        }
+
+        get fallback() {
+            return this.getAttribute("fallback");
+        }
+
+        connectedCallback() {
+            if (this.#shareSupport || this.#clipboardSupport) {
+                this.createLiveRegion();
+                this.initElements();
+                this.listen();
+            }
+        }
+
+        initElements() {
+            this.copyElement = this.querySelector(`#${this.copy}`);
+            this.shareElement = this.querySelector(`#${this.share}`);
+            this.fallbackElement = this.querySelector(`#${this.fallback}`);
+
+            if (this.#shareSupport) {
+                this.shareElement?.removeAttribute("hidden");
+            }
+
+            if (this.#clipboardSupport) {
+                this.copyElement?.removeAttribute("hidden");
+            }
+
+            this.fallbackElement?.setAttribute("hidden", "");
+        }
+
+        createLiveRegion() {
+            this.liveRegion = document.createElement("p");
+            this.liveRegion.setAttribute("aria-live", "polite");
+            this.appendChild(this.liveRegion);
+        }
+
+        listen() {
+            // Bind event listeners to this instance
+            this.handleCopyClick = this.handleCopyClick.bind(this);
+            this.handleShareClick = this.handleShareClick.bind(this);
+
+            // Listen for clicks if button exists
+            this.copyElement?.addEventListener("click", this.handleCopyClick);
+            this.shareElement?.addEventListener("click", this.handleShareClick);
+        }
+
+        disconnectedCallback() {
+            this.copyElement?.removeEventListener(
+                "click",
+                this.handleCopyClick,
+            );
+            this.shareElement?.removeEventListener(
+                "click",
+                this.handleShareClick,
+            );
+        }
+
+        handleCopyClick() {
+            window.navigator.clipboard
+                .writeText(this.url)
+                .then(() => {
+                    this.showNotification(this.copyNotification);
+                    this.dispatchEvent(
+                        new CustomEvent("shareControlsCopy", {
+                            bubbles: true,
+                            cancelable: true,
+                        }),
+                    );
+                })
+                .catch((error) => console.log(error));
+        }
+
+        handleShareClick() {
+            window.navigator
+                .share({
+                    url: this.url,
+                })
+                .then(() => {
+                    this.showNotification("Thanks for sharing!");
+                    this.dispatchEvent(
+                        new CustomEvent("shareControlsShare", {
+                            bubbles: true,
+                            cancelable: true,
+                        }),
+                    );
+                })
+                .catch((error) => console.log(error));
+        }
+
+        /**
+         * Shows a notification inside of an aria-live region
+         * @param {String} text
+         * @param {Number} duration
+         */
+        showNotification(text, duration = 3000) {
+            this.liveRegion.innerText = text;
+            setTimeout(() => {
+                this.liveRegion.innerText = "";
+            }, duration);
+        }
+    }
+
+    ShareControls.register();
+</script>

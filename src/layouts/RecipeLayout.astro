@@ -1,0 +1,25 @@
+---
+import RecipeMeta from "@components/RecipeMeta.astro";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import IngredientList from "@components/IngredientList.astro";
+import ShareControls from "@components/ShareControls.astro";
+import formatDate from "src/utils/format-date";
+const { title, description, isRecipe, recipe } = Astro.props;
+---
+<BaseLayout
+	title={title}
+	description={description}
+	isRecipe={isRecipe}
+>
+	<RecipeMeta prep={recipe.data.prep} cook={recipe.data.cook} />
+	<div class="recipe-content flow">
+		<IngredientList heading="Ingredients" ingredients={recipe.data.ingredients} />
+		<slot />
+		<ShareControls />
+		<div class="last-updated">
+			<span>
+				Last updated: <time datetime="">{formatDate(recipe.data.lastUpdated) || formatDate(recipe.data.date)}</time>
+			</span>
+  		</div>
+	</div>
+</BaseLayout>

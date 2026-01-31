@@ -1,32 +1,21 @@
 {
-  "name": "recipe-book",
-  "version": "2.0.0",
-  "description": "Website source for a collection of some of my favorite recipes, as well as some new ones I'm just trying out.",
-  "main": "index.js",
+  "name": "",
   "type": "module",
+  "version": "0.0.1",
   "scripts": {
-    "start": "npm run serve",
-    "serve": "npx eleventy --serve",
-    "eleventy:build": "npx eleventy",
-    "build": "npm run eleventy:build",
-    "clean": "rm -rf site"
+    "dev": "astro dev",
+    "build": "run-s build:*",
+    "build:astro": "astro build",
+    "build:pagefind": "npx pagefind --site dist",
+    "preview": "astro preview",
+    "astro": "astro"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/levimcg/recipe-book.git"
+  "dependencies": {
+    "astro": "^5.16.8"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/levimcg/recipe-book/issues"
-  },
-  "homepage": "https://github.com/levimcg/recipe-book#readme",
   "devDependencies": {
-    "@11ty/eleventy": "3.1.2",
-    "clean-css": "5.3.3",
-    "lightningcss": "1.31.1",
-    "markdown-it": "14.1.0",
-    "markdown-it-anchor": "9.2.0",
-    "markdown-it-footnote": "4.0.0"
+    "@pagefind/default-ui": "^1.4.0",
+    "npm-run-all": "^4.1.5",
+    "pagefind": "^1.4.0"
   }
 }

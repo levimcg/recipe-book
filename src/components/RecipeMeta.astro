@@ -1,0 +1,35 @@
+---
+const { prep, cook } = Astro.props;
+---
+
+<div class="recipe-meta">
+	<div class="recipe-meta-item">
+		<div class="recipe-meta-label">Prep</div>
+		<div class="recipe-meta-value">{prep}</div>
+	</div>
+	<div class="recipe-meta-item">
+		<div class="recipe-meta-label">Cook</div>
+		<div class="recipe-meta-value">{cook}</div>
+	</div>
+</div>
+
+<style>
+	.recipe-meta {
+		margin-block-start: var(--space-l);
+		display: flex;
+		gap: var(--space-l);
+	}
+
+	.recipe-meta-label {
+		text-transform: uppercase;
+		font-size: var(--step--2);
+		letter-spacing: .1rem;
+		color: var(--color-primary);
+	}
+
+	.recipe-meta-value {
+		font-size: var(--step-2);
+		font-weight: 700;
+		line-height: 1.3;
+	}
+</style>

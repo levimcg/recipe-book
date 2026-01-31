@@ -1,0 +1,25 @@
+---
+const currentDate = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+    <div class="site-footer-inner">
+        <span>
+            &copy; {currentDate}
+            <a href="https://levimcg.com">Levi McGranahan</a>
+        </span>
+    </div>
+</footer>
+
+<style>
+    .site-footer {
+        margin-block-start: var(--space-2xl);
+        padding-block: var(--space-l);
+    }
+
+    .site-footer-inner {
+        max-width: var(--site-max-width);
+        margin-inline: auto;
+        width: 90%;
+    }
+</style>

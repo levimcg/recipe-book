@@ -1,0 +1,174 @@
+@import './custom-properties.css';
+@import './fonts.css';
+@import './reset.css';
+
+.recipe-content :target {
+    transition: background-color 1s ease;
+    outline: 3px solid var(--color-primary-muted);
+    outline-offset: 2px;
+}
+
+/* Global styles */
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+}
+
+button {
+    font: inherit;
+}
+
+.button {
+    min-height: var(--space-m);
+    background-color: var(--color-primary);
+    color: #ffffff;
+    font-weight: 700;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding-block: var(--space-xs);
+    padding-inline: var(--space-xs);
+    font-size: var(--step-0);
+}
+
+.button:hover {
+    cursor: pointer;
+    box-shadow: 0 var(--space-3xs) 0 0 var(--color-primary-muted);
+}
+
+:target {
+    scroll-margin-block: var(--space-m);
+}
+
+.recipe-list {
+    margin-top: var(--space-l);
+    padding-inline-start: 0;
+}
+
+.recipe-list li {
+    --flow-space: var(--space-2xs);
+    border-bottom: 1px solid hsl(201, 81%, 90%);
+    padding-bottom: var(--space-s);
+}
+
+.recipe-list li a {
+    font-size: var(--step-1);
+    color: var(--color-primary);
+}
+
+.recipe-list li a:hover {
+    text-decoration-thickness: .25rem;
+}
+
+.recipe-list li p {
+    color: var(--color-text-muted);
+}
+
+.recipe-content {
+    margin-block-start: var(--space-xl);
+}
+
+.recipe-content :is(h2, h3, h4, h5, h6) {
+    --flow-space: var(--space-xl);
+}
+
+.recipe-content :where(p, li) {
+    color: var(--color-text-muted);
+}
+
+.recipe-content :is(a) {
+    color: var(--color-primary);
+}
+
+.recipe-content > ol {
+    --flow-space: var(--space-l);
+    list-style: "";
+    counter-reset: method-counter;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-l);
+    padding-inline-start: 0;
+}
+
+.recipe-content > ol > li {
+    padding-inline-start: calc(var(--space-l) * 1.5);
+    counter-increment: method-counter;
+    position: relative;
+}
+
+.recipe-content > ol > li::before {
+    position: absolute;
+    content: counter(method-counter);
+    border: 2px solid var(--color-primary-muted);
+    background-color: var(--color-primary);
+    color: var(--color-primary-muted);
+    font-weight: 700;
+    width: var(--space-l);
+    height: var(--space-l);
+    display: flex;
+    left: 0;
+    top: -.2rem;
+    border-radius: 999rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.last-updated {
+    margin-block-start: var(--space-l);
+    font-size: var(--step--1);
+    color: var(--color-text-muted);
+    text-align: right;
+}
+
+/* Footnotes */
+
+.footnotes {
+    margin-block-start: var(--space-l);
+    padding-block-start: var(--space-s);
+    border-block-start: 1px solid var(--color-ruler);
+}
+
+.footnotes ol {
+    padding-inline-start: var(--space-s);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+}
+
+.footnotes ol li {
+    font-size: var(--step--1);
+}
+
+.footnote-ref {
+    margin-inline-start: var(--space-3xs);
+}
+
+/* Utilities */
+
+.visually-hidden:not(:focus):not(:active),
+.sr-only {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.flow > * + * {
+    margin-top: var(--flow-space, var(--space-s));
+}
+
+.m-top-none {
+    margin-block-start: 0 !important;
+}
+
+.m-bottom-m {
+    margin-block-end: var(--space-s) !important;
+}
+
+.p-bottom-m {
+    padding-block-end: var(--space-m) !important;
+}

@@ -1,0 +1,54 @@
+---
+import Logo from "@components/Logo.astro";
+import Search from "@components/Search.astro";
+---
+
+<header class="site-header">
+    <Logo href="/" label="Levi McGranahan's Recipe Book"/>
+    <div class="site-header-controls">
+        <nav class="site-nav">
+            <ul role="list">
+                <li>
+                    <a href="/">Recipes</a>
+                </li>
+                <li>
+                    <a href="/about/">About</a>
+                </li>
+            </ul>
+        </nav>
+        <Search />
+    </div>
+</header>
+
+<style>
+    .site-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-inline: auto;
+        padding-block: var(--space-l);
+        width: var(--site-width, 90%);
+        max-width: var(--site-max-width);
+        gap: var(--space-l);
+    }
+
+    .site-header-controls {
+        display: flex;
+        align-items: center;
+        flex-grow: 1;
+        justify-content: flex-end;
+        gap: var(--space-m);
+    }
+
+    .site-nav ul {
+        display: flex;
+        list-style: none;
+        gap: var(--space-m);
+        padding-inline-start: 0;
+    }
+
+    .site-nav ul li a {
+        text-decoration: none;
+        font-weight: 500;
+    }
+</style>

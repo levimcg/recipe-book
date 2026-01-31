@@ -1,0 +1,41 @@
+---
+import type { GetStaticPaths } from "astro";
+// Components
+import Pagination from "@components/Pagination.astro";
+import BaseLayout from "@layouts/BaseLayout.astro";
+// Data
+import { getCollection } from "astro:content";
+import { SITE } from '../constants';
+
+export const getStaticPaths = (async ({paginate}) => {
+	 const recipes = (await getCollection("recipes")).sort((a, b) => {
+		const dateA = a.data.date.valueOf();
+		const dateB = b.data.date.valueOf();
+		return dateB - dateA;
+	});
+
+	return paginate(recipes, {
+		pageSize: 10
+	});
+}) satisfies GetStaticPaths;
+
+const { page } = Astro.props;
+---
+
+<BaseLayout title="Recipe Book" description={SITE.description}>
+	<ul role="list" class="recipe-list flow" data-pagefind-ignore>
+		{
+			page.data.map((recipe) => (
+				<li class="flow">
+					{recipe.data.icon && (
+						<span aria-hidden="true">{recipe.data.icon}</span>
+					)}
+					<a href={`/recipes/${recipe.id}`}>{recipe.data.title}</a>
+					<p>{recipe.data.description}</p>
+				</li>
+			))
+		}
+	</ul>
+	
+	<Pagination nextUrl={page.url.next} prevUrl={page.url.prev} />
+</BaseLayout>

@@ -1,0 +1,12 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+const { frontmatter } = Astro.props;
+---
+<BaseLayout
+	title={frontmatter.title}
+	description={frontmatter.description}
+>
+	<div class="recipe-content flow">
+		<slot />
+	</div>
+</BaseLayout>

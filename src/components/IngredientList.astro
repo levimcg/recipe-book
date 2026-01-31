@@ -1,0 +1,31 @@
+---
+const { heading, ingredients } = Astro.props;
+---
+<h2 id="ingredients">{heading}</h2>
+<ul class="ingredient-list">
+	{
+		ingredients.map((ingredient: string) => (
+			<li>{ingredient}</li>
+		))
+	}
+</ul>
+
+<style>
+	.ingredient-list {
+		list-style: "";
+		display: flex;
+		flex-direction: column;
+		gap: var(--space-xs);
+		padding-inline-start: 0;
+	}
+
+	.ingredient-list li {
+		display: flex;
+		gap: var(--space-xs);
+	}
+
+	.ingredient-list li::before {
+		content: "•";
+		color: var(--color-primary);
+	}
+</style>

@@ -1,0 +1,65 @@
+---
+const { nextUrl, prevUrl } = Astro.props;
+---
+<nav aria-labelledby="my-pagination" class="pagination">
+	<h2 id="my-pagination" class="visually-hidden">This is my Pagination</h2>
+	<ol>
+		<li>
+			{
+				prevUrl ? <a href={prevUrl}>← Previous</a> : '← Previous'
+			}
+		</li>
+		<li>
+			{
+				nextUrl ? <a href={nextUrl}>Next →</a> : 'Next →'
+			}
+		</li>
+	</ol>
+</nav>
+
+<style>
+	.pagination {
+		display: flex;
+		margin-block-start: var(--space-2xl);
+	}
+
+	.pagination ol {
+		list-style: none;
+		display: flex;
+		gap: var(--space-m);
+		padding-inline-start: 0;
+		align-items: center;
+	}
+
+	.pagination ol li {
+		color: var(--color-text-disabled);
+		position: relative;
+		min-width: calc(var(--space-m) * 1.125);
+		height: calc(var(--space-m) * 1.25);
+		display: flex;
+		align-items: center;
+	}
+
+	.pagination ol li a {
+		display: flex;
+		color: var(--color-primary);
+		text-decoration: none;
+		align-items: center;
+		justify-content: center;
+		flex-grow: 1;
+	}
+
+	.pagination ol li a:hover {
+		background-color: var(--color-primary-muted);
+	}
+
+	.pagination ol li a[aria-current="page"]::after {
+		content: "";
+		width: 100%;
+		height: calc(var(--space-xs) / 4);
+		background-color: var(--color-primary);
+		position: absolute;
+		left: 0;
+		bottom: 0;
+	}
+</style>

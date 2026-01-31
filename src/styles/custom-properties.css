@@ -1,0 +1,58 @@
+:root {
+    /* @link https://utopia.fyi/type/calculator?c=320,17,1.2,1240,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+    --step--2: clamp(0.7381rem, 0.7166rem + 0.1076vw, 0.8rem);
+    --step--1: clamp(0.8856rem, 0.8458rem + 0.1989vw, 1rem);
+    --step-0: clamp(1.0625rem, 0.9973rem + 0.3261vw, 1.25rem);
+    --step-1: clamp(1.275rem, 1.175rem + 0.5vw, 1.5625rem);
+    --step-2: clamp(1.53rem, 1.3828rem + 0.7359vw, 1.9531rem);
+    --step-3: clamp(1.8363rem, 1.6258rem + 1.0522vw, 2.4413rem);
+    --step-4: clamp(2.2031rem, 1.9079rem + 1.4761vw, 3.0519rem);
+    --step-5: clamp(2.6438rem, 2.2364rem + 2.037vw, 3.815rem);
+    /* @link https://utopia.fyi/space/calculator?c=320,17,1.2,1240,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+    --space-3xs: clamp(0.25rem, 0.2283rem + 0.1087vw, 0.3125rem);
+    --space-2xs: clamp(0.5625rem, 0.5408rem + 0.1087vw, 0.625rem);
+    --space-xs: clamp(0.8125rem, 0.769rem + 0.2174vw, 0.9375rem);
+    --space-s: clamp(1.0625rem, 0.9973rem + 0.3261vw, 1.25rem);
+    --space-m: clamp(1.625rem, 1.538rem + 0.4348vw, 1.875rem);
+    --space-l: clamp(2.125rem, 1.9946rem + 0.6522vw, 2.5rem);
+    --space-xl: clamp(3.1875rem, 2.9918rem + 0.9783vw, 3.75rem);
+    --space-2xl: clamp(4.25rem, 3.9891rem + 1.3043vw, 5rem);
+    --space-3xl: clamp(6.375rem, 5.9837rem + 1.9565vw, 7.5rem);
+
+    /* Colors */
+    --color-background-default: #ffffff;
+    --color-background: hsl(192, 88%, 90%);
+    --color-text: hsl(232, 26%, 23%);
+    --color-text-muted: hsl(214, 13%, 34%);
+    --color-text-disabled: hsl(214, 13%, 47%);
+    --color-primary: hsl(0, 74%, 50%);
+    --color-primary-muted: hsl(8, 84%, 90%);
+    --color-ruler: hsl(201, 81%, 90%);
+
+    /* Layout */
+    --site-max-width: 960px;
+
+    /*
+   * Shadows
+   * See: https://www.joshwcomeau.com/shadow-palette/
+   */
+    --shadow-color: 193deg 36% 56%;
+    --shadow-elevation-low:
+        0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.34),
+        0.4px 0.8px 1px -1.2px hsl(var(--shadow-color) / 0.34),
+        1px 2px 2.5px -2.5px hsl(var(--shadow-color) / 0.34);
+    --shadow-elevation-medium:
+        0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.36),
+        0.8px 1.6px 2px -0.8px hsl(var(--shadow-color) / 0.36),
+        2.1px 4.1px 5.2px -1.7px hsl(var(--shadow-color) / 0.36),
+        5px 10px 12.6px -2.5px hsl(var(--shadow-color) / 0.36);
+    --shadow-elevation-high:
+        0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.34),
+        1.5px 2.9px 3.7px -0.4px hsl(var(--shadow-color) / 0.34),
+        2.7px 5.4px 6.8px -0.7px hsl(var(--shadow-color) / 0.34),
+        4.5px 8.9px 11.2px -1.1px hsl(var(--shadow-color) / 0.34),
+        7.1px 14.3px 18px -1.4px hsl(var(--shadow-color) / 0.34),
+        11.2px 22.3px 28.1px -1.8px hsl(var(--shadow-color) / 0.34),
+        17px 33.9px 42.7px -2.1px hsl(var(--shadow-color) / 0.34),
+        25px 50px 62.9px -2.5px hsl(var(--shadow-color) / 0.34);
+}

@@ -254,6 +254,10 @@ body {
   border-bottom: 1px solid var(--color-ruler);
 }
 
+.page-container:last-child {
+  border-bottom: none;
+}
+
 .page-container-inner {
   padding-block-start: var(--space-xl);
   padding-block-end: var(--space-s);

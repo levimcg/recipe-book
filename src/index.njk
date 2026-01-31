@@ -7,7 +7,7 @@ pagination:
   size: 10
   reverse: true
 ---
-<ul role="list" class="recipe-list flow">
+<ol role="list" class="recipe-list flow">
   {% for recipe in pagination.items %}
   {% if recipe.data.hidden != true %}
   <li class="flow">
@@ -17,6 +17,6 @@ pagination:
   </li>
   {% endif %}
   {% endfor %}
-</ul>
+</ol>
 
 {% include "partials/pagination.njk" %}

@@ -1,5 +1,6 @@
 import { markdownLibrary } from './src/_config/markdown.js';
 import { cssmin, formatDate } from './src/_config/filters.js';
+import { bundle } from 'lightningcss';
 
 export default async function (eleventyConfig) {
 	// Filters

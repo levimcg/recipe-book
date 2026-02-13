@@ -49,6 +49,12 @@ import Search from "@components/Search.astro";
 
     .site-nav ul li a {
         text-decoration: none;
-        font-weight: 500;
+
+        &:hover {
+            text-decoration: underline;
+            text-underline-offset: var(--space-2xs);
+            text-decoration-color: var(--color-primary);
+            text-decoration-thickness: var(--space-3xs);
+        }
     }
 </style>

@@ -1,8 +1,9 @@
 ---
-import SearchPlaceholder from "@components/SearchPlaceholder.astro";
+import SearchPlaceholder from "./SearchPlaceholder.astro";
 ---
+
 <recipe-search>
-	<button data-dialog-button class="search-button">
+	<button data-dialog-button class="search-button" aria-label="Search">
 		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
 			<circle cx="11" cy="11" r="8"></circle>
 			<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
@@ -16,7 +17,7 @@ import SearchPlaceholder from "@components/SearchPlaceholder.astro";
 	>
 		<div class="search-dialog-heading">Find a recipe</div>
 		<div class="search-dialog-inner" id="search-dialog">
-			<!-- <SearchPlaceholder /> -->
+			<SearchPlaceholder />
 		</div>
 		<button data-search-dialog-close class="search-dialog-close" aria-label="Close dialog">
 			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -88,12 +89,6 @@ import SearchPlaceholder from "@components/SearchPlaceholder.astro";
 </script>
 
 <style>
-	recipe-search {
-		display: flex;
-		width: 100%;
-		max-width: 20rem;
-	}
-
 	.search-dialog-inner {
 		position: relative;
 	}
@@ -106,20 +101,23 @@ import SearchPlaceholder from "@components/SearchPlaceholder.astro";
 	}
 
 	.search-button {
-		background-color: var(--color-background-default);
-		border: 1px solid var(--color-ruler);
+		background: none;
+		gap: var(--space-3xs);
+		border: none;
 		display: flex;
-		gap: var(--space-2xs);
 		align-items: center;
-		padding-inline: var(--space-xs);
-		height: var(--step-4);
-		width: 100%;	
-		color: var(--color-text-muted);
-		font-size: var(--step--1);
+
+		svg {
+			color: var(--color-text-muted);
+		}
 	}
 
 	.search-button:hover {
 		cursor: pointer;
+		text-decoration: underline;
+		text-underline-offset: var(--space-2xs);
+		text-decoration-color: var(--color-primary);
+		text-decoration-thickness: var(--space-3xs);
 	}
 
 	.search-dialog {
@@ -176,7 +174,6 @@ import SearchPlaceholder from "@components/SearchPlaceholder.astro";
 		padding-inline: var(--space-xs);
 		border: 1px solid var(--color-text-muted);
 		border-radius: var(--space-3xs);
-		font-size: var(--step--1);
 	}
 
 	.pagefind-ui__search-clear {

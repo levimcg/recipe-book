@@ -20,8 +20,9 @@ ingredients:
 - 1 Teaspoon crushed red pepper
 - 1-2 Teaspoons sugar
 tags:
-  - rice
-  - mains
+  - Rice
+  - Casseroles
+  - Beef
 ---
 ## Method
 

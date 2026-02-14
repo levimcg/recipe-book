@@ -1,12 +1,7 @@
 @import './custom-properties.css';
 @import './fonts.css';
 @import './reset.css';
-
-.recipe-content :target {
-	transition: background-color 1s ease;
-	outline: 3px solid var(--color-primary-muted);
-	outline-offset: 2px;
-}
+@import './utilities.css';
 
 /* Global styles */
 
@@ -17,6 +12,10 @@ body {
 
 button {
 	font: inherit;
+}
+
+:target {
+	scroll-margin-block: var(--space-m);
 }
 
 .button {
@@ -37,40 +36,16 @@ button {
 	box-shadow: 0 var(--space-3xs) 0 0 var(--color-primary-muted);
 }
 
-:target {
-	scroll-margin-block: var(--space-m);
-}
-
-.recipe-list {
-	margin-top: var(--space-l);
-	padding-inline-start: 0;
-}
-
-.recipe-list li {
-	--flow-space: var(--space-2xs);
-	border-bottom: 1px solid hsl(201, 81%, 90%);
-	padding-bottom: var(--space-s);
-}
-
-.recipe-list li a {
-	font-size: var(--step-1);
-	color: var(--color-primary);
-}
-
-.recipe-list li a:hover {
-	text-decoration-thickness: .25rem;
-}
-
-.recipe-list li p {
-	color: var(--color-text-muted);
-}
-
 .recipe-content {
 	margin-block-start: var(--space-xl);
 }
 
 .recipe-content :is(h2, h3, h4, h5, h6) {
 	--flow-space: var(--space-xl);
+}
+
+.recipe-content :is(h2, h3, h4, h5, h6) + :is(h2, h3, h4, h5, h6) {
+	--flow-space: var(--space-m);
 }
 
 .recipe-content :where(p, li) {
@@ -142,33 +117,4 @@ button {
 
 .footnote-ref {
 	margin-inline-start: var(--space-3xs);
-}
-
-/* Utilities */
-
-.visually-hidden:not(:focus):not(:active),
-.sr-only {
-	clip: rect(0 0 0 0);
-	clip-path: inset(50%);
-	height: 1px;
-	overflow: hidden;
-	position: absolute;
-	white-space: nowrap;
-	width: 1px;
-}
-
-.flow > * + * {
-	margin-top: var(--flow-space, var(--space-s));
-}
-
-.m-top-none {
-	margin-block-start: 0 !important;
-}
-
-.m-bottom-m {
-	margin-block-end: var(--space-s) !important;
-}
-
-.p-bottom-m {
-	padding-block-end: var(--space-m) !important;
 }

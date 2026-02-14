@@ -1,5 +1,6 @@
 ---
 date: 2015-01-25
+lastUpdated: 2026-02-14
 title: Guacamole
 body: archive-page
 description: Super simple guacamole with lots of garlic and lime juice. Make sure to use a mortar and pestle on this. It makes a huge difference.
@@ -15,11 +16,10 @@ ingredients:
   - 1 jalapeño finely diced
   - Salt, to taste
 tags:
-  - dips
-  - sides
-  - appetizers
-  - vegetarian
-  - mexican
+  - Dips
+  - Appetizers
+  - Vegetarian
+  - Mexican
 ---
 
 ## Method

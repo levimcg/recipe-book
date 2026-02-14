@@ -15,7 +15,8 @@ ingredients:
   - 1 Tspn ground cumin
   - 1 TBspn dry oregano (preferably Mexican oregano)
 tags:
-  - soups
+  - Mexican
+  - Soups
 ---
 ## About
 This is an adaptation of another recipe I found online. The original can be found [here](http://www.simplyrecipes.com/recipes/posole_rojo/).

@@ -1,5 +1,6 @@
 ---
 date: 2020-08-12
+lastUpdated: 2026-02-14
 title: Fresh Pizza Sauce
 description: This is a super simple pizza sauce doesn't even require cooking. Just make sure to use some really good canned tomatoes
 icon: 🍅
@@ -10,8 +11,9 @@ ingredients:
   - 1 Clove of garlic
   - Salt (optional)
 tags:
-  - pizza
-  - sauce
+  - Sauces
+  - Vegetarian
+  - Italian
 ---
 ## About
 This is a riff on the sauce recipe from the Pizza Camp cookbook. It goes perfectly with the crust recipe from the same book.

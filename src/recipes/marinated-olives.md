@@ -12,8 +12,9 @@ ingredients:
   - 1 lemon
   - light olive oil
 tags:
-  - starters
-  - vegetarian
+  - Appetizers
+  - Vegetarian
+  - Mediterranean
 ---
 ## Method
 1. Pour the olives into a strainer and rinse with water.

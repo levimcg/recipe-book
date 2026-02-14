@@ -1,5 +1,6 @@
 ---
 date: 2023-11-22
+lastUpdated: 2026-02-14
 title: Cheese Ball
 description: This is my go-to cheese ball recipe. It's super simple and totally delicious.
 icon: 🧀
@@ -12,7 +13,9 @@ ingredients:
   - Chopped Pecans
   - 1 Tsp. MSG
 tags:
-  - starter
+  - Appetizers
+  - Dips
+  - Vegetarian
 ---
 ## Method
 1. Set cream cheese out at least one hour before starting. Once softened add to a mixing bowl.

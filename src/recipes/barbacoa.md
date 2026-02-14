@@ -1,12 +1,11 @@
 ---
 date: 2015-08-04
+lastUpdated: 2026-02-14
 title: Barbacoa
-body: archive-page
 description: Tender slow-cooked beef with lots of spices—great for tacos, tortas, or burritos.
 icon: 🐄
 prep: 15 min
 cook: 8 hr
-illo: barbacoa-illo-web.png
 ingredients:
   - 3 lbs. Bottom round beef roast
   - 4 dried red chillies (Guajillo, New Mexico, etc.)
@@ -21,8 +20,9 @@ ingredients:
   - 1 TBspn. Ground Cumin
   - Salt & Pepper
 tags:
-  - slowcooker
-  - mexican
+  - Mains
+  - Beef
+  - Mexican
 ---
 ## Method
 1. In a small sauce pan bring the beef broth to a boil. While the broth heats up, remove the seeds and stems from the dried chillies and place in a small shallow bowl. Once the broth comes to a boil pour it over the dired chillies and let them soak for 20–30 minutes.

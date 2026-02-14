@@ -19,8 +19,8 @@ ingredients:
   - 1 Tsp. Oregano
   - 1 Tsp. Chicken Bullion Powder
 tags:
-  - soup
-  - mexican
+  - Mexican
+  - Soups
 ---
 ## Method
 

@@ -15,9 +15,9 @@ ingredients:
   - 3 grams MSG
   - 15-20g Water or milk 
 tags:
-    - dips
-    - sauces
-    - greek
+    - Dips
+    - Vegetarian
+    - Mediterranean
 ---
 ## Method
 Combine all the ingredients in a small bowl and stir to combine. Use water or milk to thin the sauce to your desired consistency.

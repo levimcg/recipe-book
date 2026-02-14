@@ -1,8 +1,10 @@
 ---
 import type { GetStaticPaths } from "astro";
 // Components
-import Pagination from "@components/Pagination.astro";
 import BaseLayout from "@layouts/BaseLayout.astro";
+import Pagination from "@components/Pagination.astro";
+import RecipeListItem from "@components/RecipeListItem.astro";
+import RecipeList from "@components/RecipeList.astro";
 // Data
 import { getCollection } from "astro:content";
 import { SITE } from '../constants';
@@ -23,19 +25,12 @@ const { page } = Astro.props;
 ---
 
 <BaseLayout title="Recipe Book" description={SITE.description}>
-	<ul role="list" class="recipe-list flow" data-pagefind-ignore>
+	<RecipeList>
 		{
 			page.data.map((recipe) => (
-				<li class="flow">
-					{recipe.data.icon && (
-						<span aria-hidden="true">{recipe.data.icon}</span>
-					)}
-					<a href={`/recipes/${recipe.id}`}>{recipe.data.title}</a>
-					<p>{recipe.data.description}</p>
-				</li>
+				<RecipeListItem recipe={recipe} />
 			))
 		}
-	</ul>
-	
+	</RecipeList>
 	<Pagination nextUrl={page.url.next} prevUrl={page.url.prev} />
 </BaseLayout>

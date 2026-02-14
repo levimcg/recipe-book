@@ -1,8 +1,8 @@
 ---
 date: 2024-12-07
+lastUpdated: 2026-02-14
 title: "Evie's Chocoloate Chip Cookies"
 # Custom permalink here because of the apostrophe in the title
-permalink: 'recipes/evie-chocolate-chip-cookie/'
 description: Our friend Evie gave us this recipes 20 years ago and it's still my favorite chocolate chip cookie ever.
 icon: 🍪
 prep: 45 min
@@ -21,7 +21,7 @@ ingredients:
   - 12 oz. Chocolate Chips
   - 1 Cup Chopped Walnuts (Optional)
 tags:
-  - desert
+  - Desserts
 ---
 ## Method
 1. Cream together the shortening and white and brown sugar.

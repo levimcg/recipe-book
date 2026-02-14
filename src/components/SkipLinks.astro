@@ -4,18 +4,18 @@ const { isRecipe } = Astro.props;
 
 <a class="skip-link" href="#main-content">Skip to content</a>
 {isRecipe &&
-    <a class="skip-link" href="#method">Skip to method</a>
-    <a class="skip-link" href="#ingredients">Skip to ingredient list</a>
+	<a class="skip-link" href="#method">Skip to method</a>
+	<a class="skip-link" href="#ingredients">Skip to ingredient list</a>
 }
 
 <style>
-    .skip-link {
-        position: fixed;
-        top: -6em;
-        left: var(--space-m);
-    }
+	.skip-link {
+		position: fixed;
+		top: -6em;
+		left: var(--space-m);
+	}
 
-    .skip-link:focus {
-        top: 0;
-    }
+	.skip-link:focus {
+		top: 0;
+	}
 </style>

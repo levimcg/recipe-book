@@ -1,5 +1,6 @@
 ---
 date: 2014-12-03
+lastUpdated: 2026-02-14
 title: Italian Beef
 body: archive-page
 description: This is a classic slow cooker dish that is cheap, easy to make, and delicious.
@@ -16,7 +17,8 @@ ingredients:
   - 1 Jar of banana peppers
   - Salt
 tags:
-  - slowcooker
+  - Beef
+  - Italian
 ---
 ## Method
 1. Add the beef broth, salad dressing mix, basil, oregano, and bay leaves to a medium sauce. Stir to combine and bring the mixture to a simmer. Remove from the heat and set aside.

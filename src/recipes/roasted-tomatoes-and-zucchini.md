@@ -13,8 +13,8 @@ ingredients:
   - 1/2 Tspn Salt
   - Fresh black pepper
 tags:
-  - sides
-  - vegetarian
+  - Sides
+  - Vegetarian
 ---
 ## Method
 1. Mix all of the ingredients in a large bowl making sure the oil coats everything.

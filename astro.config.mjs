@@ -6,5 +6,6 @@ export default defineConfig({
 	server: {
 		open: true
 	},
+	trailingSlash: 'always',
 	site: 'https://recipes.levimcg.com',
 });

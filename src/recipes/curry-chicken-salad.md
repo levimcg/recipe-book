@@ -1,5 +1,6 @@
 ---
 date: 2015-09-20
+lastUpdated: 2026-02-14
 hidden: true
 title: Curry Chicken Salad
 body: archive-page
@@ -17,7 +18,8 @@ ingredients:
   - 1 Cup of white grapes
   - 4 Scallions finely chopped
 tags:
-  - salads
+  - Salads
+  - Chicken
 ---
 ## Method
 1. Dice up the chicken breast into small cubes (about 1/2") and transfer to a large bowl.

@@ -8,7 +8,7 @@ import SearchPlaceholder from "./SearchPlaceholder.astro";
 			<circle cx="11" cy="11" r="8"></circle>
 			<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
 		</svg>
-		<span>Search</span>
+		<span class="visually-hidden">Search</span>
 	</button>
 	<dialog
 		data-search-dialog
@@ -102,11 +102,15 @@ import SearchPlaceholder from "./SearchPlaceholder.astro";
 
 	.search-button {
 		background: none;
-		gap: var(--space-3xs);
 		border: none;
 		display: flex;
 		align-items: center;
 		color: var(--color-text);
+		border-radius: 100%;
+		width: var(--space-l);
+		height: var(--space-l);
+		border: 1px solid var(--color-background-ruler);
+		background-color: var(--color-background-ruler);
 
 		svg {
 			color: var(--color-text-muted);
@@ -118,6 +122,7 @@ import SearchPlaceholder from "./SearchPlaceholder.astro";
 		text-decoration: underline;
 		text-underline-offset: var(--space-2xs);
 		text-decoration-color: var(--color-primary);
+		color: var(--color-primary);
 		text-decoration-thickness: var(--space-3xs);
 	}
 

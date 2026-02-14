@@ -1,6 +1,6 @@
 ---
 date: 2020-08-24
-lastUpdated: 2025-11-08
+lastUpdated: 2026-02-14
 title: Apple Crumble
 description: "A super super easy recipe for a quick desert. Works well, with peaches, pears, anything really."
 icon: 🍏
@@ -18,8 +18,7 @@ ingredients:
   - 1/2 teaspoon salt
   - 8 tablespoons (1 stick) butter
 tags:
-  - desert
-  - fruit
+  - Desserts
 ---
 ## Method
 1. For the filling, peel and slice the apples (or peaches, or whatever) into wedges. Mix the sliced fruit with the granulated sugar, cinnamon, lemon zest, and lemon juice.

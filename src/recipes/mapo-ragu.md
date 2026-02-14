@@ -18,7 +18,8 @@ ingredients:
   - 2-4 tablespoons neutral oil (like canola)
   - Jasmine rice for serving
 tags:
-  - Asian
+  - Korean
+  - Pork
 ---
 ## About
 This is adaptation of a NY Times recipe from Sam Sifton which is in turn an adaptation of a recipe by Tien Ho and David Chang from their restaurant Momofuku Ssam Bar. It's one of our family favorites. I usually make a double batch because it makes for great left-over lunches through the week. The original recipe can be found [here on the New York Times cooking site](https://cooking.nytimes.com/recipes/1018404-mapo-ragu).

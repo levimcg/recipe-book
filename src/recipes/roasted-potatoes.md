@@ -13,8 +13,8 @@ ingredients:
   - 1/2 Tspn crushed red pepper flakes
   - black pepper
 tags:
-  - sides
-  - vegetarian
+  - Sides
+  - Vegetarian
 ---
 ## Method
 1. Preheat your oven to 400 degrees. Wash the potatoes and halve any of the larger ones so that all the potatoes/pieces are close to equal in size.

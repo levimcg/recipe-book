@@ -20,8 +20,8 @@ ingredients:
   - Olive oil
   - Salt
 tags:
-  - soups
-  - vegetarian
+  - Soups
+  - Vegetarian
 ---
 
 ## About

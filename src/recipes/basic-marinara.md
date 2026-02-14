@@ -1,5 +1,6 @@
 ---
 date: 2014-06-07
+lastUpdated: 2026-02-14
 title: Basic Marinara
 description: This is a ridiculously easy recipe that the basis of my go weeknight dinners. I haven't bought pasta sauce in a jar since I mastered this one.
 prep: 5 min
@@ -14,7 +15,9 @@ ingredients:
   - 1/2 Tspn sugar
   - salt to taste
 tags:
-  - sauces
+  - Sauces
+  - Italian
+  - Vegitarian
 ---
 ## Method
 1. Peel and finely chop the garlic and onion/shallot.

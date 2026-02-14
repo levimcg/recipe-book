@@ -1,5 +1,6 @@
 ---
 date: 2025-06-01
+lastUpdated: 2026-02-14
 title: Hashbrown Casserole
 description: One of our family's favorites from the old country restaurant at every interstate exit
 icon: 🥔
@@ -15,7 +16,9 @@ ingredients:
 - 1 Tbspn Ground Pepper
 - 1 Cup Panko Breadcrumbs (optional)
 tags:
-  - sides
+  - Sides
+  - Casseroles
+  - Vegetarian
 ---
 ## About
 Adapted from this recipe from [this one](https://preppykitchen.com/hashbrown-casserole/#recipe) I found online. I've modified some of the ingredient amounts to our family's taste, but it's very similar.

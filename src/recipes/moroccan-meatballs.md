@@ -1,5 +1,6 @@
 ---
 date: 2014-08-24
+lastUpdated: 2026-02-14
 title: Moroccan Spiced Meatballs
 body: archive-page
 description: A simple meatball recipe made with a North African blend of spices and fresh mint
@@ -18,6 +19,8 @@ ingredients:
   - 1/3 cup plain breadcrumbs
 prep: 15 min
 cook: 30 min
+tags:
+  - Beef
 ---
 ## Method
 1. Combine all of the ingredients in a large mixing bowl. Use your hands to make sure that all of the ingredients are mixed together really well.

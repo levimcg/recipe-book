@@ -18,7 +18,8 @@ ingredients:
   - 3 TBspn olive oil
   - Salt and _LOTS_ of black pepper
 tags:
-  - vegetarian
+  - Vegetarian
+  - Spanish
 ---
 ## Method
 1. Heat the olive oil in a medium sauté pan on medium heat. Once the oil is hot add the onion and cook for 5-8 minutes. It's ok if the onion starts to brown and caramelize a little. This will add a little extra sweetness, which is a good thing.

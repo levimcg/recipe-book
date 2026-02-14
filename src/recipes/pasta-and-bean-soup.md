@@ -25,7 +25,9 @@ ingredients:
   - 3/4 cup ditilini pasta
   - 2 TBspn. olive oil
 tags:
-  - soups
+  - Soups
+  - Italian
+  - Beef
 ---
 ## Method
 1. Heat the olive oil in a large Dutch oven or soup pot. Once the oil is hot add the onion, carrot, and celery. Cook for about five minutes, or until the onion is translucent. Add the garlic and cook for two more minutes, making sure not to let the garlic get brown.

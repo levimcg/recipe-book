@@ -1,5 +1,6 @@
 ---
 date: 2014-07-26
+lastUpdated: 2026-02-14
 title: Chili
 body: archive-page
 description: This is my favorite chili recipe. I like to experiment with different types of beans and I always add a bottle of good, strong American IPA for a great flavor.
@@ -23,7 +24,8 @@ ingredients:
   - 1-2 TBspn Cholula hot sauce
   - 1/2 Tspn cayenne pepper (more if you like it spicy)
 tags:
-  - soups
+  - Soups
+  - Beef
 ---
 ## Method
 1. In a large soup pot or dutch oven brown the ground beef. Work in batches if necessary. Once all of the meat is browned, remove from the pot and set aside.

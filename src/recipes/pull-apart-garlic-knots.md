@@ -15,7 +15,9 @@ ingredients:
   - 1/4 Cup Parmesan from the green can
   - 1/4 Cup grated Parmigiano Reggiano (optional)
 tags:
-  - bread
+  - Breads
+  - Italian
+  - Appetizers
 ---
 ## Method
 

@@ -19,8 +19,9 @@ ingredients:
   - Olive oil
   - Salt and pepper
 tags:
-  - rice
-  - sides
+  - Sides
+  - Rice
+  - Vegetarian
 ---
 
 ## Method

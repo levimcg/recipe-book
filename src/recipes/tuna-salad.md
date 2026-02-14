@@ -14,7 +14,7 @@ ingredients:
   - 1 Shallot Chopped
   - Salt and Pepper
 tags:
-  - salad
+  - Salads
 ---
 ## Method
 1. Drain the cans of tuna and add them to a mixing bowl along with all of the remaining ingredients.

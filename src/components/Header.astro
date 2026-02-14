@@ -1,60 +1,34 @@
 ---
 import Logo from "@components/Logo.astro";
 import Search from "@components/Search.astro";
+import Navigation from "@components/Navigation.astro";
 ---
 
 <header class="site-header">
-    <Logo href="/" label="Levi McGranahan's Recipe Book"/>
-    <div class="site-header-controls">
-        <nav class="site-nav">
-            <ul role="list">
-                <li>
-                    <a href="/">Recipes</a>
-                </li>
-                <li>
-                    <a href="/about/">About</a>
-                </li>
-            </ul>
-        </nav>
-        <Search />
-    </div>
+	<Logo href="/" label="Levi McGranahan's Recipe Book"/>
+	<div class="site-header-controls">
+		<Navigation />
+		<Search />
+	</div>
 </header>
 
 <style>
-    .site-header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-inline: auto;
-        padding-block: var(--space-l);
-        width: var(--site-width, 90%);
-        max-width: var(--site-max-width);
-        gap: var(--space-l);
-    }
+	.site-header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-inline: auto;
+		padding-block: var(--space-l);
+		width: var(--site-width, 90%);
+		max-width: var(--site-max-width);
+		gap: var(--space-l);
+	}
 
-    .site-header-controls {
-        display: flex;
-        align-items: center;
-        flex-grow: 1;
-        justify-content: flex-end;
-        gap: var(--space-m);
-    }
-
-    .site-nav ul {
-        display: flex;
-        list-style: none;
-        gap: var(--space-m);
-        padding-inline-start: 0;
-    }
-
-    .site-nav ul li a {
-        text-decoration: none;
-
-        &:hover {
-            text-decoration: underline;
-            text-underline-offset: var(--space-2xs);
-            text-decoration-color: var(--color-primary);
-            text-decoration-thickness: var(--space-3xs);
-        }
-    }
+	.site-header-controls {
+		display: flex;
+		align-items: center;
+		flex-grow: 1;
+		justify-content: flex-end;
+		gap: var(--space-s);
+	}
 </style>

@@ -14,7 +14,9 @@ ingredients:
   - 1-2 TBspn fresh parsley chopped
   - Salt to taste
 tags:
-  - sides
+  - Sides
+  - Vegetarian
+  - Spanish
 ---
 ## Method
 1. Pour the chicken stock in a medium saucepan. **Add a good pinch of saffron threads** and start to bring to a simmer.

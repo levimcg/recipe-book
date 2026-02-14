@@ -16,7 +16,9 @@ ingredients:
   - A couple good pinches of salt
   - pepper
 tags:
-  - vegetarian
+  - Vegetarian
+  - Eggs
+  - Italian
 ---
 ## Method
 1. Preheat your oven to 400° and line a large baking sheet with foil.

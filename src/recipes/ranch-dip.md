@@ -11,8 +11,9 @@ ingredients:
   - 1 tablespoon garlic powder
   - 1/2 teaspoon MSG
 tags:
-    - dips
-    - appetizers
+    - Dips
+    - Appetizers
+    - Vegetarian
 ---
 ## Method
 Combine all the ingredients in a large bowl and mix thoroughly to combine.

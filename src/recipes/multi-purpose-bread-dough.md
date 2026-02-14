@@ -13,7 +13,7 @@ ingredients:
   - Olive - 1%
   - Sugar - 1%
 tags:
-  - bread
+  - Breads
 ---
 ## Method
 

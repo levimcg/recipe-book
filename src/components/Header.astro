@@ -2,12 +2,13 @@
 import Logo from "@components/Logo.astro";
 import Search from "@components/Search.astro";
 import Navigation from "@components/Navigation.astro";
+import { SITE } from '../constants';
 ---
 
 <header class="site-header">
 	<Logo href="/" label="Levi McGranahan's Recipe Book"/>
 	<div class="site-header-controls">
-		<Navigation />
+		<Navigation items={SITE.navigation.items} />
 		<Search />
 	</div>
 </header>

@@ -1,14 +1,15 @@
 ---
-
+const { items } = Astro.props;
 ---
 <nav class="site-nav">
 	<ul role="list">
-		<li>
-			<a href="/">Recipes</a>
-		</li>
-		<li>
-			<a href="/about/">About</a>
-		</li>
+		{
+			items.map((item) => (
+				<li>
+					<a href={item.path}>{item.text}</a>
+				</li>
+			))
+		}
 	</ul>
 </nav>
 

@@ -1,0 +1,28 @@
+/* Utilities */
+
+.visually-hidden:not(:focus):not(:active),
+.sr-only {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+.flow > * + * {
+	margin-top: var(--flow-space, var(--space-s));
+}
+
+.m-top-none {
+	margin-block-start: 0 !important;
+}
+
+.m-bottom-m {
+	margin-block-end: var(--space-s) !important;
+}
+
+.p-bottom-m {
+	padding-block-end: var(--space-m) !important;
+}

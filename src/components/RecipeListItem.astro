@@ -1,0 +1,33 @@
+---
+const { recipe } = Astro.props;
+const { icon, title, description } = recipe.data;
+const id = recipe.id;
+---
+<li class="flow">
+	{icon && (
+		<span aria-hidden="true">{icon}</span>
+	)}
+	<a href={`/recipes/${id}/`}>{title}</a>
+	<p>{description}</p>
+</li>
+
+<style>
+	li {
+		--flow-space: var(--space-2xs);
+		border-bottom: 1px solid hsl(201, 81%, 90%);
+		padding-bottom: var(--space-s);
+	}
+
+	li a {
+		font-size: var(--step-1);
+		color: var(--color-primary);
+	}
+
+	li a:hover {
+		text-decoration-thickness: .25rem;
+	}
+
+	li p {
+		color: var(--color-text-muted);
+	}
+</style>

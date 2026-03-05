@@ -9,9 +9,9 @@ ingredients:
   - 450 grams (1 lb.) Ground Beef
   - 450 grams (1 lb.) Ground Pork
   - 2 Eggs
-  - 1 Cup Breadcrumbs
-  - ¼ Cup Milk
-  - 15 grams Tablespoon Garlic Powder
+  - 70g (1 Cup) Breadcrumbs
+  - 40g (¼ Cup) Milk
+  - 1 Tablespoon Garlic Powder
   - 2 Teaspoons Onion Powder
   - 10g Salt
   - 5 grams Black Pepper

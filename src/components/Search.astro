@@ -128,12 +128,12 @@ import SearchPlaceholder from "./SearchPlaceholder.astro";
 
 	.search-dialog {
 		border: none;
-		margin: auto;
-		width: 82%;
+		margin-block-start: calc(var(--space-l) * 3.25);
+		margin-inline: auto;
+		width: 90%;
 		max-width: 48rem;
 		min-height: 12rem;
 		max-height: calc(100% - 4rem);
-		box-shadow: var(--shadow-elevation-medium);
 		border-radius: var(--space-xs);
 	}
 
@@ -179,7 +179,8 @@ import SearchPlaceholder from "./SearchPlaceholder.astro";
 		width: 100%;
 		display: inline;
 		padding-inline: var(--space-xs);
-		border: 1px solid var(--color-text-muted);
+		border: 1px solid hsl(222 24 80);
+		background-color: hsl(222 24 96);
 		border-radius: var(--space-3xs);
 	}
 
